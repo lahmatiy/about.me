@@ -1,0 +1,50 @@
+.discovery-content-badges {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow:
+        1px 3px 12px 0px rgba(0, 0, 0, .25),
+        0 -1px 1px rgba(0, 0, 0, .25) inset;
+}
+.discovery-content-badges > .badge {
+    background: white;
+}
+
+.page-default {
+    padding: 0;
+    margin: 0px -30px -10px;
+}
+
+.page-default .view-struct {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.8;
+    background: none;
+    overflow: visible;
+}
+.page-default .view-struct.struct-expanded-value,
+.page-default .view-struct .struct-expanded-value {
+    background-size: 1px calc(100% - 43px);
+    background-position: 4.85ex 22px;
+}
+.view-struct .show-signature {
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .discovery-content {
+        overflow: visible;
+    }
+
+    .view-struct .struct-collapse-value,
+    .view-struct .show-signature,
+    .view-struct .string-as-text-toggle,
+    .view-struct .value-actions {
+        padding: 4px 16px 2px;
+        color: #333;
+        background: #f8f8f8;
+        border-color: #e0e0e0;
+    }
+}

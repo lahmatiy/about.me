@@ -18215,6 +18215,16 @@ var defaultOptions = {
   render: undefined
 };
 
+function getOffsetParent(node) {
+  var offsetParent = node.offsetParent || documentElement;
+
+  while (offsetParent && offsetParent !== documentElement && getComputedStyle(offsetParent, 'position') == 'static') {
+    offsetParent = offsetParent.offsetParent;
+  }
+
+  return offsetParent || documentElement;
+}
+
 function getOffset(element) {
   var top = 0;
   var left = 0;
@@ -18270,6 +18280,51 @@ function getBoundingRect(element, relElement) {
     bottom: bottom + offset.top,
     width: right - left,
     height: bottom - top
+  };
+}
+
+function getTopLeftPoint(element, relElement) {
+  var offset = getOffset(relElement);
+  var left = 0;
+  var top = 0;
+
+  if (element && element.getBoundingClientRect) {
+    var box = element.getBoundingClientRect();
+    top = box.top;
+    left = box.left;
+  }
+
+  return {
+    top: top + offset.top,
+    left: left + offset.left
+  };
+}
+
+function getViewportRect(element, relElement) {
+  var topViewport = standartsMode ? document.documentElement : document.body;
+  var point = element === topViewport && !relElement ? getOffset() : getTopLeftPoint(element, relElement);
+  var top = point.top;
+  var left = point.left;
+  var width;
+  var height;
+
+  if (!element || element === window) {
+    width = window.innerWidth || 0;
+    height = window.innerHeight || 0;
+  } else {
+    top += element.clientTop;
+    left += element.clientLeft;
+    width = element.clientWidth;
+    height = element.clientHeight;
+  }
+
+  return {
+    top: top,
+    left: left,
+    right: left + width,
+    bottom: top + height,
+    width: width,
+    height: height
   };
 }
 
@@ -18376,8 +18431,11 @@ function () {
     key: "show",
     value: function show(triggerEl) {
       var render = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.options.render;
-      var box = getBoundingRect(triggerEl, document.body);
-      var viewport = document.body.getBoundingClientRect();
+      var rootEl = document.documentElement;
+      var hostEl = document.body;
+      var box = getBoundingRect(triggerEl, hostEl);
+      var offsetParent = getOffsetParent(document.body.firstChild);
+      var viewport = getViewportRect(window, offsetParent);
       var availHeightTop = box.top - viewport.top - 3;
       var availHeightBottom = viewport.bottom - box.bottom - 3;
       var availWidthLeft = box.right - viewport.left - 3;
@@ -18392,7 +18450,7 @@ function () {
       } else {
         // show to bottom
         this.el.style.maxHeight = availHeightBottom + 'px';
-        this.el.style.top = box.bottom + 'px';
+        this.el.style.top = box.bottom - rootEl.scrollTop + 'px';
         this.el.style.bottom = 'auto';
         this.el.dataset.vTo = 'bottom';
       }
