@@ -29,22 +29,9 @@
     background-size: 1px calc(100% - 43px);
     background-position: 4.85ex 22px;
 }
-.view-struct .show-signature {
-    cursor: pointer;
-}
 
-@media (max-width: 800px) {
+@media (hover:none), (hover:on-demand) { 
     .discovery-content {
         overflow: visible;
-    }
-
-    .view-struct .struct-collapse-value,
-    .view-struct .show-signature,
-    .view-struct .string-as-text-toggle,
-    .view-struct .value-actions {
-        padding: 4px 16px 2px;
-        color: #333;
-        background: #f8f8f8;
-        border-color: #e0e0e0;
     }
 }
