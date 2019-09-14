@@ -56,14 +56,14 @@
         {
             "date": "2019-09-21",
             "event": "CSS-Minsk-JS",
-            "location": "Минск",
-            "lang": "ru",
+            "location": "Minsk, Belarus",
+            "lang": "en",
             "title": "Gaining insight"
         },
         {
             "date": "2019-08-24",
             "event": "TechTrain",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "Почему фронтенд это круто",
             "slides": "https://www.icloud.com/keynote/0RyUUOW6Lb4IGrzAbMgqzDlrw#Frontend_is_awesome_TechTrain"
@@ -71,7 +71,7 @@
         {
             "date": "2019-07-20",
             "event": "BeerJS Summit",
-            "location": "Минск",
+            "location": "Minsk, Belarus",
             "lang": "ru",
             "title": "Почему фронтенд это НЕ круто",
             "slides": "https://www.icloud.com/keynote/0VVqElNnzydjQShADtaC6gXqw",
@@ -80,7 +80,7 @@
         {
             "date": "2019-07-13",
             "event": "WSD",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "Почему фронтенд это круто",
             "slides": "https://wsd.events/2019/07/13/pres/frontend-awesome.pdf"
@@ -88,7 +88,7 @@
         {
             "date": "2019-06-15",
             "event": "AntanaJS",
-            "location": "Нур-Султан",
+            "location": "Nur-Sultan, Kazakhstan",
             "lang": "ru",
             "title": "Почему фронтенд это круто",
             "slides": "https://www.icloud.com/keynote/0qU9pGe5qIXSBNw-2uiKAUPeA#Frontend_is_awesome_ru"
@@ -96,7 +96,7 @@
         {
             "date": "2019-05-24",
             "event": "HolyJS",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "JsonDiscovery",
             "slides": "https://www.icloud.com/keynote/0ukZKXxCOpeACrRQaDvpebXZA#Holyjs_Piter'19_lighting_talk",
@@ -105,8 +105,8 @@
         {
             "date": "2018-11-25",
             "event": "HolyJS",
-            "location": "Москва",
-            "lang": "en",
+            "location": "Moscow, Russia",
+            "lang": "ru",
             "title": "Маленький Data Science для большого фронтенда",
             "video": "https://youtu.be/ltV7zyEr4vQ",
             "slides": "https://www.icloud.com/keynote/0Y5bf6VCCGZn7HjR4V0dGq_YQ"
@@ -114,7 +114,7 @@
         {
             "date": "2018-06-30",
             "event": "BeerJS Summit",
-            "location": "Минск",
+            "location": "Minsk, Belarus",
             "lang": "ru",
             "title": "Декорирование кода – новые горизонты",
             "slides": "https://www.icloud.com/keynote/0Gff4YSp4x5Rk_hgzDbJXRklQ",
@@ -123,7 +123,7 @@
         {
             "date": "2018-06-08",
             "event": "pitercss_conf",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "en",
             "title": "All About the CSS Syntax",
             "slides": "https://www.icloud.com/keynote/0DEQD-fUqhf0ak2AAqMjaqYMg#All_about_the_CSS_syntax_(pitercss_2018)"
@@ -131,7 +131,7 @@
         {
             "date": "2018-05-20",
             "event": "HolyJS",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "Каталог компонентов: переосмысление",
             "video": "https://youtu.be/zZUbXAVV-HA",
@@ -140,7 +140,7 @@
         {
             "date": "2018-04-07",
             "event": "SPA Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Масштабируемая архитектура фронтенда",
             "video": "https://youtu.be/z9y6PNC2FL0",
@@ -149,7 +149,7 @@
         {
             "date": "2018-02-03",
             "event": "WSD",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "CSS глазами машин",
             "video": "https://youtu.be/c2Sw5gmOwmE",
@@ -158,7 +158,7 @@
         {
             "date": "2017-12-11",
             "event": "HolyJS",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Unit-тестирование скриншотами: преодолеваем звуковой барьер",
             "video": "https://youtu.be/ULwdj_Vr_WA",
@@ -166,16 +166,16 @@
         },
         {
             "date": "2017-10-07",
-            "event": "Hacktoberfest Open Hack Day в Avito",
-            "location": "Москва",
+            "event": "Hacktoberfest Open Hack Day at Avito",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "My open source",
             "slides": "https://www.slideshare.net/basisjs/my-open-source-sept-2017"
         },
         {
             "date": "2017-04-08",
-            "event": "SPA meetup",
-            "location": "Москва",
+            "event": "SPA Meetup",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Rempl — крутая платформа для крутых инструментов",
             "video": "https://youtu.be/n0u0u_jkBeI"
@@ -183,7 +183,7 @@
         {
             "date": "2017-04-02",
             "event": "CodeFest",
-            "location": "Новосибирск",
+            "location": "Novosibirsk, Russia",
             "lang": "ru",
             "title": "Rempl — крутая платформа для крутых инструментов",
             "video": "https://youtu.be/29gJUPEt2T4",
@@ -193,7 +193,7 @@
         {
             "date": "2016-12-11",
             "event": "HolyJS",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Remote (dev)tools своими руками",
             "video": "https://youtu.be/yb22qyVUqTs",
@@ -202,7 +202,7 @@
         {
             "date": "2016-11-07",
             "event": "HighLoad++",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Как сделать ваш JavaScript быстрее",
             "video": "https://youtu.be/BstzvS2xd5U",
@@ -212,7 +212,7 @@
         {
             "date": "2016-09-24",
             "event": "MoscowJS",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Парсим CSS: performance tips & tricks",
             "video": "https://youtu.be/5XUuWVq-djs",
@@ -222,7 +222,7 @@
         {
             "date": "2016-09-17",
             "event": "FrontTalks",
-            "location": "Екатеринбург",
+            "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "Парсим CSS",
             "video": "https://youtu.be/jqaXpKqkYvM",
@@ -231,7 +231,7 @@
         {
             "date": "2016-06-05",
             "event": "HolyJS",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "CSSO: история ускорения",
             "video": "https://youtu.be/8o3gKKD_J4A",
@@ -240,7 +240,7 @@
         {
             "date": "2016-04-23",
             "event": "SPA Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "CSSO — сжимаем CSS",
             "video": "https://youtu.be/WcuwRJhB9C4"
@@ -248,7 +248,7 @@
         {
             "date": "2016-04-16",
             "event": "Frontend Dev Conf",
-            "location": "Минск",
+            "location": "Minsk, Belarus",
             "lang": "ru",
             "title": "CSSO — сжимаем CSS",
             "video": "https://youtu.be/MyUGy66tFDg",
@@ -258,7 +258,7 @@
         {
             "date": "2016-04-08",
             "event": "DUMP",
-            "location": "Екатеринбург",
+            "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "CSSO — сжимаем CSS",
             "video": "https://youtu.be/RQbvWRwreaQ"
@@ -266,7 +266,7 @@
         {
             "date": "2015-12-13",
             "event": "WSD",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "CSSO — минимизируем CSS",
             "video": "https://youtu.be/KgF0gGW_Bk0",
@@ -274,15 +274,15 @@
         },
         {
             "date": "2015-11-27",
-            "event": "Wrike meetup",
-            "location": "Санкт-Петербург",
+            "event": "Wrike Meetup",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "Инструментируй это"
         },
         {
             "date": "2015-11-01",
             "event": "WSD",
-            "location": "Минск",
+            "location": "Minsk, Belarus",
             "lang": "ru",
             "title": "Инструментируй это",
             "slides": "https://wsd.events/2015/10/31/pres/instrument-this.pdf"
@@ -290,7 +290,7 @@
         {
             "date": "2015-10-28",
             "event": "MoscowJS",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Component Inspector",
             "slides": "https://www.slideshare.net/basisjs/component-inspector"
@@ -298,7 +298,7 @@
         {
             "date": "2015-09-19",
             "event": "FrontTalks",
-            "location": "Екатеринбург",
+            "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "Инструментируй это",
             "video": "https://youtu.be/aMP6j6um4Ss"
@@ -306,7 +306,7 @@
         {
             "date": "2015-07-04",
             "event": "Mobile Frontend Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Карточный домик",
             "video": "https://youtu.be/4o9joROJVHg",
@@ -315,7 +315,7 @@
         {
             "date": "2015-06-20",
             "event": "WSD",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "Жизнь в изоляции",
             "slides": "https://wsd.events/2015/06/20/pres/style-isolation.pdf"
@@ -323,7 +323,7 @@
         {
             "date": "2015-05-21",
             "event": "FrontendConf",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Жизнь в изоляции",
             "video": "https://youtu.be/Xw7L-4nCKRk"
@@ -331,7 +331,7 @@
         {
             "date": "2015-03-28",
             "event": "CodeFest",
-            "location": "Новосибирск",
+            "location": "Novosibirsk, Russia",
             "lang": "ru",
             "title": "Инструменты разные нужны, инструменты разные важны",
             "video": "https://youtu.be/HMTc3DERw5c",
@@ -341,7 +341,7 @@
         {
             "date": "2015-02-28",
             "event": "SPA Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "SPA инструменты",
             "video": "https://youtu.be/IUtbbN9aevU"
@@ -349,7 +349,7 @@
         {
             "date": "2014-10-26",
             "event": "WSD",
-            "location": "Минск",
+            "location": "Minsk, Belarus",
             "lang": "ru",
             "title": "Карточный домик",
             "video": "https://youtu.be/dQoz5KZUH2M",
@@ -358,7 +358,7 @@
         {
             "date": "2014-09-19",
             "event": "FrontTalks",
-            "location": "Екатеринбург",
+            "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "Баба-яга против!",
             "video": "https://youtu.be/ne8sxUxUiCA",
@@ -367,14 +367,14 @@
         {
             "date": "2014-09-06",
             "event": "SouthFest",
-            "location": "Ростов-На-Дону",
+            "location": "Rostov-on-Don, Russia",
             "lang": "ru",
             "title": "Баба-яга против!"
         },
         {
             "date": "2014-06-28",
             "event": "WSD",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "DOM-шаблонизаторы – не только быстро",
             "slides": "https://wsd.events/2014/06/28/pres/dom-templates.pdf"
@@ -382,7 +382,7 @@
         {
             "date": "2014-06-14",
             "event": "DevConf",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "DOM-шаблонизаторы – не только быстро",
             "slides": "https://www.slideshare.net/basisjs/moscow-js-domtemplates"
@@ -390,7 +390,7 @@
         {
             "date": "2014-05-22",
             "event": "MoscowJS",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "DOM-шаблонизаторы – не только быстро",
             "slides": "https://www.icloud.com/keynote/0V-uKSlU--cMrdyG7LBb8SuZA#MoscowJS-20140522"
@@ -398,7 +398,7 @@
         {
             "date": "2014-04-15",
             "event": "РИТ",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Не бойся, это всего лишь данные... просто их много",
             "slides": "https://www.slideshare.net/basisjs/ss-32305540"
@@ -406,7 +406,7 @@
         {
             "date": "2014-04-12",
             "event": "WSD",
-            "location": "Новосибирск",
+            "location": "Novosibirsk, Russia",
             "lang": "ru",
             "title": "Быстро о быстром",
             "video": "https://youtu.be/Gz8dxQRv_6k",
@@ -415,7 +415,7 @@
         {
             "date": "2014-04-12",
             "event": "WSD",
-            "location": "Новосибирск",
+            "location": "Novosibirsk, Russia",
             "lang": "ru",
             "title": "Не бойся, это всего лишь данные... просто их много",
             "video": "https://youtu.be/A6NaaUKztSI",
@@ -424,7 +424,7 @@
         {
             "date": "2014-03-14",
             "event": "DUMP",
-            "location": "Екатеринбург",
+            "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "Не бойся, это всего лишь данные... просто их много",
             "video": "https://youtu.be/baPaSBaRKbk",
@@ -432,8 +432,8 @@
         },
         {
             "date": "2014-03-13",
-            "event": "FrontTalks meetup",
-            "location": "Екатеринбург",
+            "event": "FrontTalks Meetup",
+            "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "Быстро о быстром",
             "slides": "https://www.slideshare.net/basisjs/ss-32115638"
@@ -441,7 +441,7 @@
         {
             "date": "2014-03-09",
             "event": "IT61 JS Meetup",
-            "location": "Ростов-На-Дону",
+            "location": "Rostov-on-Don, Russia",
             "lang": "ru",
             "title": "Быстро о быстром",
             "slides": "https://www.slideshare.net/basisjs/ss-32115638"
@@ -449,7 +449,7 @@
         {
             "date": "2013-10-26",
             "event": "WSD",
-            "location": "Киев",
+            "location": "Kiev, Ukraine",
             "lang": "ru",
             "title": "Как построить DOM",
             "slides": "https://wsd.events/2013/10/26/pres/dom.pdf"
@@ -457,15 +457,15 @@
         {
             "date": "2013-10-19",
             "event": "WSD",
-            "location": "Минск",
+            "location": "Minsk, Belarus",
             "lang": "ru",
             "title": "Как построить DOM",
             "slides": "https://www.icloud.com/keynote/0jzCFZl2DKWqgRbDFgl7BWh5A"
         },
         {
             "date": "2013-10-13",
-            "event": "404",
-            "location": "Самара",
+            "event": "404Fest",
+            "location": "Samara, Russia",
             "lang": "ru",
             "title": "Компонентный подход — скучно, не интересно, бесперспективно",
             "video": "https://youtu.be/QpZy0WW0Ig4",
@@ -474,21 +474,21 @@
         {
             "date": "2013-07-05",
             "event": "FrontTalks",
-            "location": "Екатеринбург",
+            "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "Почему я не бросил разрабатывать свой фреймворк"
         },
         {
             "date": "2013-06-14",
             "event": "DevConf",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Почему я не бросил разрабатывать свой фреймворк"
         },
         {
             "date": "2013-06-08",
             "event": "WSD",
-            "location": "Санкт-Петербург",
+            "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "Почему я не бросил разрабатывать свой фреймворк",
             "video": "https://youtu.be/cVbbkwkhNQg",
@@ -497,7 +497,7 @@
         {
             "date": "2013-04-22",
             "event": "РИТ",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Почему я не бросил разрабатывать свой фреймворк",
             "slides": "https://www.slideshare.net/basisjs/rit2013"
@@ -507,49 +507,49 @@
         {
             "date": "2015-02-28",
             "event": "SPA Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "roles": ["organizer", "program committee", "host"]
         },
         {
             "date": { "from": "2015-05-21", "to": "2015-05-22" },
             "event": "FrontendConf",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "roles": ["program committee", "panel session host"]
         },
         {
             "date": "2015-07-04",
             "event": "Mobile Frontend Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "roles": ["organizer", "program committee", "host"]
         },
         {
             "date": "2016-03-31",
             "event": "MoscowJS",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "roles": ["host"]
         },
         {
             "date": "2016-04-23",
             "event": "SPA Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "roles": ["organizer", "program committee", "host"]
         },
         {
             "date": "2017-04-08",
             "event": "SPA Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "roles": ["organizer", "program committee", "host"]
         },
         {
             "date": "2018-04-07",
             "event": "SPA Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "roles": ["organizer", "program committee", "host"]
         },
         {
             "date": "2019-08-17",
             "event": "SPA Meetup",
-            "location": "Москва",
+            "location": "Moscow, Russia",
             "roles": ["organizer", "program committee", "host"]
         }
     ],
