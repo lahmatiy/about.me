@@ -9,6 +9,6 @@
   "homepage": "https://github.com/lahmatiy/about.me#readme",
   "dependencies": {
     "@discoveryjs/cli": "^1.1.0",
-    "@discoveryjs/discovery": "^1.0.0-beta.20"
+    "@discoveryjs/discovery": "^1.0.0-beta.21"
   }
 }
