@@ -58,7 +58,9 @@
             "event": "CSS-Minsk-JS",
             "location": "Minsk, Belarus",
             "lang": "en",
-            "title": "Gaining insight"
+            "title": "Gaining insight",
+            "slides": "https://www.icloud.com/keynote/0jR33b-z512QVPb5zyFrYgx3Q",
+            "projects": ["discovery"]
         },
         {
             "date": "2019-08-24",
@@ -100,7 +102,8 @@
             "lang": "ru",
             "title": "JsonDiscovery",
             "slides": "https://www.icloud.com/keynote/0ukZKXxCOpeACrRQaDvpebXZA#Holyjs_Piter'19_lighting_talk",
-            "lighting": true
+            "lighting": true,
+            "projects": ["discovery"]
         },
         {
             "date": "2018-11-25",
@@ -109,7 +112,8 @@
             "lang": "ru",
             "title": "Маленький Data Science для большого фронтенда",
             "video": "https://youtu.be/ltV7zyEr4vQ",
-            "slides": "https://www.icloud.com/keynote/0Y5bf6VCCGZn7HjR4V0dGq_YQ"
+            "slides": "https://www.icloud.com/keynote/0Y5bf6VCCGZn7HjR4V0dGq_YQ",
+            "projects": ["discovery"]
         },
         {
             "date": "2018-06-30",
@@ -118,7 +122,8 @@
             "lang": "ru",
             "title": "Декорирование кода – новые горизонты",
             "slides": "https://www.icloud.com/keynote/0Gff4YSp4x5Rk_hgzDbJXRklQ",
-            "lighting": true
+            "lighting": true,
+            "projects": ["hitext"]
         },
         {
             "date": "2018-06-08",
@@ -126,7 +131,8 @@
             "location": "St. Petersburg, Russia",
             "lang": "en",
             "title": "All About the CSS Syntax",
-            "slides": "https://www.icloud.com/keynote/0DEQD-fUqhf0ak2AAqMjaqYMg#All_about_the_CSS_syntax_(pitercss_2018)"
+            "slides": "https://www.icloud.com/keynote/0DEQD-fUqhf0ak2AAqMjaqYMg#All_about_the_CSS_syntax_(pitercss_2018)",
+            "projects": ["CSSTree"]
         },
         {
             "date": "2018-05-20",
@@ -153,7 +159,8 @@
             "lang": "ru",
             "title": "CSS глазами машин",
             "video": "https://youtu.be/c2Sw5gmOwmE",
-            "slides": "https://www.icloud.com/keynote/0mFZAEABm3DpuuUqteeXEyX1Q#css_machines_vision"
+            "slides": "https://www.icloud.com/keynote/0mFZAEABm3DpuuUqteeXEyX1Q#css_machines_vision",
+            "projects": ["CSSTree"]
         },
         {
             "date": "2017-12-11",
@@ -170,7 +177,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "My open source",
-            "slides": "https://www.slideshare.net/basisjs/my-open-source-sept-2017"
+            "slides": "https://www.slideshare.net/basisjs/my-open-source-sept-2017",
+            "projects": ["basis.js", "CSSO", "CSSTree"]
         },
         {
             "date": "2017-04-08",
@@ -178,7 +186,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Rempl — крутая платформа для крутых инструментов",
-            "video": "https://youtu.be/n0u0u_jkBeI"
+            "video": "https://youtu.be/n0u0u_jkBeI",
+            "projects": ["rempl"]
         },
         {
             "date": "2017-04-02",
@@ -188,7 +197,8 @@
             "title": "Rempl — крутая платформа для крутых инструментов",
             "video": "https://youtu.be/29gJUPEt2T4",
             "slides": "https://www.slideshare.net/basisjs/rempl",
-            "url": "https://2017.codefest.ru/lecture/1164"
+            "url": "https://2017.codefest.ru/lecture/1164",
+            "projects": ["rempl"]
         },
         {
             "date": "2016-12-11",
@@ -197,7 +207,8 @@
             "lang": "ru",
             "title": "Remote (dev)tools своими руками",
             "video": "https://youtu.be/yb22qyVUqTs",
-            "slides": "https://www.slideshare.net/basisjs/remove-devtools"
+            "slides": "https://www.slideshare.net/basisjs/remove-devtools",
+            "projects": ["rempl"]
         },
         {
             "date": "2016-11-07",
@@ -217,7 +228,8 @@
             "title": "Парсим CSS: performance tips & tricks",
             "video": "https://youtu.be/5XUuWVq-djs",
             "slides": "https://www.slideshare.net/basisjs/css-performance-tips-tricks",
-            "slides_en": "https://www.slideshare.net/basisjs/css-parsing-performance-tips-tricks"
+            "slides_en": "https://www.slideshare.net/basisjs/css-parsing-performance-tips-tricks",
+            "projects": ["CSSTree"]
         },
         {
             "date": "2016-09-17",
@@ -226,7 +238,8 @@
             "lang": "ru",
             "title": "Парсим CSS",
             "video": "https://youtu.be/jqaXpKqkYvM",
-            "slides": "https://www.slideshare.net/basisjs/css-66121105"
+            "slides": "https://www.slideshare.net/basisjs/css-66121105",
+            "projects": ["CSSTree"]
         },
         {
             "date": "2016-06-05",
@@ -235,7 +248,8 @@
             "lang": "ru",
             "title": "CSSO: история ускорения",
             "video": "https://youtu.be/8o3gKKD_J4A",
-            "slides": "https://www.slideshare.net/basisjs/csso-62738200"
+            "slides": "https://www.slideshare.net/basisjs/csso-62738200",
+            "projects": ["CSSO"]
         },
         {
             "date": "2016-04-23",
@@ -243,7 +257,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "CSSO — сжимаем CSS",
-            "video": "https://youtu.be/WcuwRJhB9C4"
+            "video": "https://youtu.be/WcuwRJhB9C4",
+            "projects": ["CSSO"]
         },
         {
             "date": "2016-04-16",
@@ -253,7 +268,8 @@
             "title": "CSSO — сжимаем CSS",
             "video": "https://youtu.be/MyUGy66tFDg",
             "slides": "https://www.slideshare.net/basisjs/csso-css-2",
-            "slides_en": "https://www.slideshare.net/basisjs/csso-compress-css-english-version"
+            "slides_en": "https://www.slideshare.net/basisjs/csso-compress-css-english-version",
+            "projects": ["CSSO"]
         },
         {
             "date": "2016-04-08",
@@ -261,7 +277,8 @@
             "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "CSSO — сжимаем CSS",
-            "video": "https://youtu.be/RQbvWRwreaQ"
+            "video": "https://youtu.be/RQbvWRwreaQ",
+            "projects": ["CSSO"]
         },
         {
             "date": "2015-12-13",
@@ -270,14 +287,16 @@
             "lang": "ru",
             "title": "CSSO — минимизируем CSS",
             "video": "https://youtu.be/KgF0gGW_Bk0",
-            "slides": "https://wsd.events/2015/12/13/pres/csso.pdf"
+            "slides": "https://wsd.events/2015/12/13/pres/csso.pdf",
+            "projects": ["CSSO"]
         },
         {
             "date": "2015-11-27",
             "event": "Wrike Meetup",
             "location": "St. Petersburg, Russia",
             "lang": "ru",
-            "title": "Инструментируй это"
+            "title": "Инструментируй это",
+            "projects": ["basis.js", "Component Inspector"]
         },
         {
             "date": "2015-11-01",
@@ -285,7 +304,8 @@
             "location": "Minsk, Belarus",
             "lang": "ru",
             "title": "Инструментируй это",
-            "slides": "https://wsd.events/2015/10/31/pres/instrument-this.pdf"
+            "slides": "https://wsd.events/2015/10/31/pres/instrument-this.pdf",
+            "projects": ["basis.js", "Component Inspector"]
         },
         {
             "date": "2015-10-28",
@@ -293,7 +313,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Component Inspector",
-            "slides": "https://www.slideshare.net/basisjs/component-inspector"
+            "slides": "https://www.slideshare.net/basisjs/component-inspector",
+            "projects": ["Component Inspector"]
         },
         {
             "date": "2015-09-19",
@@ -301,7 +322,8 @@
             "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "Инструментируй это",
-            "video": "https://youtu.be/aMP6j6um4Ss"
+            "video": "https://youtu.be/aMP6j6um4Ss",
+            "projects": ["basis.js", "Component Inspector"]
         },
         {
             "date": "2015-07-04",
@@ -318,7 +340,8 @@
             "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "Жизнь в изоляции",
-            "slides": "https://wsd.events/2015/06/20/pres/style-isolation.pdf"
+            "slides": "https://wsd.events/2015/06/20/pres/style-isolation.pdf",
+            "projects": ["basis.js"]
         },
         {
             "date": "2015-05-21",
@@ -326,7 +349,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Жизнь в изоляции",
-            "video": "https://youtu.be/Xw7L-4nCKRk"
+            "video": "https://youtu.be/Xw7L-4nCKRk",
+            "projects": ["basis.js"]
         },
         {
             "date": "2015-03-28",
@@ -336,7 +360,8 @@
             "title": "Инструменты разные нужны, инструменты разные важны",
             "video": "https://youtu.be/HMTc3DERw5c",
             "slides": "https://www.slideshare.net/basisjs/fronted-tools",
-            "url": "https://2015.codefest.ru/lecture/999"
+            "url": "https://2015.codefest.ru/lecture/999",
+            "projects": ["basis.js"]
         },
         {
             "date": "2015-02-28",
@@ -344,7 +369,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "SPA инструменты",
-            "video": "https://youtu.be/IUtbbN9aevU"
+            "video": "https://youtu.be/IUtbbN9aevU",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-10-26",
@@ -377,7 +403,8 @@
             "location": "St. Petersburg, Russia",
             "lang": "ru",
             "title": "DOM-шаблонизаторы – не только быстро",
-            "slides": "https://wsd.events/2014/06/28/pres/dom-templates.pdf"
+            "slides": "https://wsd.events/2014/06/28/pres/dom-templates.pdf",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-06-14",
@@ -385,7 +412,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "DOM-шаблонизаторы – не только быстро",
-            "slides": "https://www.slideshare.net/basisjs/moscow-js-domtemplates"
+            "slides": "https://www.slideshare.net/basisjs/moscow-js-domtemplates",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-05-22",
@@ -393,7 +421,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "DOM-шаблонизаторы – не только быстро",
-            "slides": "https://www.icloud.com/keynote/0V-uKSlU--cMrdyG7LBb8SuZA#MoscowJS-20140522"
+            "slides": "https://www.icloud.com/keynote/0V-uKSlU--cMrdyG7LBb8SuZA#MoscowJS-20140522",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-04-15",
@@ -401,7 +430,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Не бойся, это всего лишь данные... просто их много",
-            "slides": "https://www.slideshare.net/basisjs/ss-32305540"
+            "slides": "https://www.slideshare.net/basisjs/ss-32305540",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-04-12",
@@ -410,7 +440,8 @@
             "lang": "ru",
             "title": "Быстро о быстром",
             "video": "https://youtu.be/Gz8dxQRv_6k",
-            "slides": "https://www.slideshare.net/basisjs/ss-32115638"
+            "slides": "https://www.slideshare.net/basisjs/ss-32115638",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-04-12",
@@ -419,7 +450,8 @@
             "lang": "ru",
             "title": "Не бойся, это всего лишь данные... просто их много",
             "video": "https://youtu.be/A6NaaUKztSI",
-            "slides": "https://www.slideshare.net/basisjs/ss-32305540"
+            "slides": "https://www.slideshare.net/basisjs/ss-32305540",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-03-14",
@@ -428,7 +460,8 @@
             "lang": "ru",
             "title": "Не бойся, это всего лишь данные... просто их много",
             "video": "https://youtu.be/baPaSBaRKbk",
-            "slides": "https://www.slideshare.net/basisjs/ss-32305540"
+            "slides": "https://www.slideshare.net/basisjs/ss-32305540",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-03-13",
@@ -436,7 +469,8 @@
             "location": "Yekaterinburg, Russia",
             "lang": "ru",
             "title": "Быстро о быстром",
-            "slides": "https://www.slideshare.net/basisjs/ss-32115638"
+            "slides": "https://www.slideshare.net/basisjs/ss-32115638",
+            "projects": ["basis.js"]
         },
         {
             "date": "2014-03-09",
@@ -444,7 +478,8 @@
             "location": "Rostov-on-Don, Russia",
             "lang": "ru",
             "title": "Быстро о быстром",
-            "slides": "https://www.slideshare.net/basisjs/ss-32115638"
+            "slides": "https://www.slideshare.net/basisjs/ss-32115638",
+            "projects": ["basis.js"]
         },
         {
             "date": "2013-10-26",
@@ -452,7 +487,8 @@
             "location": "Kiev, Ukraine",
             "lang": "ru",
             "title": "Как построить DOM",
-            "slides": "https://wsd.events/2013/10/26/pres/dom.pdf"
+            "slides": "https://wsd.events/2013/10/26/pres/dom.pdf",
+            "projects": ["basis.js"]
         },
         {
             "date": "2013-10-19",
@@ -460,7 +496,8 @@
             "location": "Minsk, Belarus",
             "lang": "ru",
             "title": "Как построить DOM",
-            "slides": "https://www.icloud.com/keynote/0jzCFZl2DKWqgRbDFgl7BWh5A"
+            "slides": "https://www.icloud.com/keynote/0jzCFZl2DKWqgRbDFgl7BWh5A",
+            "projects": ["basis.js"]
         },
         {
             "date": "2013-10-13",
@@ -469,21 +506,24 @@
             "lang": "ru",
             "title": "Компонентный подход — скучно, не интересно, бесперспективно",
             "video": "https://youtu.be/QpZy0WW0Ig4",
-            "slides": "https://www.slideshare.net/basisjs/ss-27142749"
+            "slides": "https://www.slideshare.net/basisjs/ss-27142749",
+            "projects": ["basis.js"]
         },
         {
             "date": "2013-07-05",
             "event": "FrontTalks",
             "location": "Yekaterinburg, Russia",
             "lang": "ru",
-            "title": "Почему я не бросил разрабатывать свой фреймворк"
+            "title": "Почему я не бросил разрабатывать свой фреймворк",
+            "projects": ["basis.js"]
         },
         {
             "date": "2013-06-14",
             "event": "DevConf",
             "location": "Moscow, Russia",
             "lang": "ru",
-            "title": "Почему я не бросил разрабатывать свой фреймворк"
+            "title": "Почему я не бросил разрабатывать свой фреймворк",
+            "projects": ["basis.js"]
         },
         {
             "date": "2013-06-08",
@@ -492,7 +532,8 @@
             "lang": "ru",
             "title": "Почему я не бросил разрабатывать свой фреймворк",
             "video": "https://youtu.be/cVbbkwkhNQg",
-            "slides": "https://wsd.events/2013/06/08/pres/basis-js.pdf"
+            "slides": "https://wsd.events/2013/06/08/pres/basis-js.pdf",
+            "projects": ["basis.js"]
         },
         {
             "date": "2013-04-22",
@@ -500,7 +541,8 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "Почему я не бросил разрабатывать свой фреймворк",
-            "slides": "https://www.slideshare.net/basisjs/rit2013"
+            "slides": "https://www.slideshare.net/basisjs/rit2013",
+            "projects": ["basis.js"]
         }
     ],
     "eventProduction": [
