@@ -597,13 +597,27 @@
     ],
     "shows": [
         {
+            "show": "UnderJS Podcast",
+            "episodes": [
+                {
+                    "num": "5",
+                    "date": "2019-09-24",
+                    "title": "Разговор с Романом Дворновым про Open-Source и вкусные детали Web",
+                    "url": "https://underjs.ru/podcast/2019/09/24/open-source-and-web-delicious.html",
+                    "media": {
+                        "soundcloud": "https://soundcloud.com/underjs/5-razgovor-s-romanom-dvornovym-pro-open-source-i-vkusnye-detali-web-lampovyy"
+                    }
+                }
+            ]
+        },
+        {
             "show": "Frontend Weekend",
             "episodes": [
                 {
                     "num": "25",
                     "date": "2017-10-30",
                     "title": "Роман Дворнов о том, как создавать Open Source и не перегореть",
-                    "url": {
+                    "media": {
                         "soundcloud": "https://soundcloud.com/frontend-weekend/fw-25"
                     }
                 }
