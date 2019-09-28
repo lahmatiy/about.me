@@ -58,7 +58,7 @@
             "event": "JSConf",
             "location": "Budapest, Hungary",
             "lang": "en",
-            "title": "Changing the way we're viewing JSON in a browser",
+            "title": "Changing a way we're viewing JSON in a browser",
             "slides": "https://www.icloud.com/keynote/0XI-Pe7ltCrAyeOMXMLU8-S9Q#JSConf_Budapest'19_lighting_talk_(dark)",
             "projects": ["discovery"],
             "lighting": true
