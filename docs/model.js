@@ -2,7 +2,7 @@
 "use strict";Object.defineProperty(exports,"__esModule",{value:true});exports["default"]=_default;function _default(discovery){}
 
 },{}],2:[function(require,module,exports){
-"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports["default"]=_default;function _default(discovery){!function(module,exports){discovery.page.define('default',{view:'struct',expanded:2,limit:10});}.call(this);}
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports["default"]=_default;function _default(discovery){!function(module,exports){discovery.page.define('default',{view:'struct',expanded:2,limit:10});discovery.view.define('video',function(el,config,data){var _ref=typeof data==='string'?{video:data}:data,video=_ref.video;if(typeof video==='string'){var videoEl=document.createElement('iframe');videoEl.setAttribute('width',280);videoEl.setAttribute('height',158);videoEl.setAttribute('src',video.replace(/^https?:\/\/youtu.be\/([^\/]+)\/?$/,'https://www.youtube.com/embed/$1'));videoEl.setAttribute('frameborder',0);videoEl.setAttribute('allow','accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');videoEl.setAttribute('allowfullscreen','');el.appendChild(videoEl);}});}.call(this);}
 
 },{}],3:[function(require,module,exports){
 "use strict";Object.defineProperty(exports,"__esModule",{value:true});exports["default"]=void 0;var _default={"name":"Implicit config","mode":"single","model":{"name":"Roman Dvornov","slug":"default","cache":false}};exports["default"]=_default;
