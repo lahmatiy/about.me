@@ -8,7 +8,7 @@
   },
   "homepage": "https://github.com/lahmatiy/about.me#readme",
   "dependencies": {
-    "@discoveryjs/cli": "^1.1.0",
+    "@discoveryjs/cli": "^1.2.0",
     "@discoveryjs/discovery": "^1.0.0-beta.21"
   }
 }
