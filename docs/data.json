@@ -1,6 +1,6 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2019-09-28T21:34:09.853Z",
+    "createdAt": "2019-11-11T23:22:12.418Z",
     "elapsedTime": 1,
     "data": {
         "who": {
@@ -57,6 +57,18 @@
             }
         ],
         "talks": [
+            {
+                "date": "2019-11-09",
+                "event": "HolyJS",
+                "location": "Moscow, Russia",
+                "lang": "ru",
+                "title": "CSS Definition Syntax",
+                "slides": "https://www.icloud.com/keynote/04eJQlUKmqZLNFTve7GIGshEw#CSS_definition_syntax_%E2%80%93_Holyjs_Moscow_'19",
+                "projects": [
+                    "CSSTree",
+                    "CSSO"
+                ]
+            },
             {
                 "date": "2019-09-28",
                 "event": "JSConf",
