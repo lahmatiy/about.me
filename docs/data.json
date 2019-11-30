@@ -1,6 +1,6 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2019-11-11T23:22:12.418Z",
+    "createdAt": "2019-11-30T15:22:07.617Z",
     "elapsedTime": 1,
     "data": {
         "who": {
@@ -63,6 +63,7 @@
                 "location": "Moscow, Russia",
                 "lang": "ru",
                 "title": "CSS Definition Syntax",
+                "video": "https://youtu.be/8kjE1n6mQ2s",
                 "slides": "https://www.icloud.com/keynote/04eJQlUKmqZLNFTve7GIGshEw#CSS_definition_syntax_%E2%80%93_Holyjs_Moscow_'19",
                 "projects": [
                     "CSSTree",
@@ -87,6 +88,7 @@
                 "location": "Minsk, Belarus",
                 "lang": "en",
                 "title": "Gaining insight",
+                "video": "https://youtu.be/8C6ZrOwN8AQ",
                 "slides": "https://www.icloud.com/keynote/0jR33b-z512QVPb5zyFrYgx3Q",
                 "projects": [
                     "discovery"

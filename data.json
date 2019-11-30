@@ -59,6 +59,7 @@
             "location": "Moscow, Russia",
             "lang": "ru",
             "title": "CSS Definition Syntax",
+            "video": "https://youtu.be/8kjE1n6mQ2s",
             "slides": "https://www.icloud.com/keynote/04eJQlUKmqZLNFTve7GIGshEw#CSS_definition_syntax_%E2%80%93_Holyjs_Moscow_'19",
             "projects": ["CSSTree", "CSSO"]
         },
@@ -78,6 +79,7 @@
             "location": "Minsk, Belarus",
             "lang": "en",
             "title": "Gaining insight",
+            "video": "https://youtu.be/8C6ZrOwN8AQ",
             "slides": "https://www.icloud.com/keynote/0jR33b-z512QVPb5zyFrYgx3Q",
             "projects": ["discovery"]
         },
