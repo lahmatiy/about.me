@@ -1,7 +1,7 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2019-11-30T15:22:07.617Z",
-    "elapsedTime": 1,
+    "createdAt": "2019-12-20T16:49:08.521Z",
+    "elapsedTime": 2,
     "data": {
         "who": {
             "name": "Roman Dvornov",
@@ -121,7 +121,7 @@
             },
             {
                 "date": "2019-06-15",
-                "event": "AstanaJS",
+                "event": "AntanaJS",
                 "location": "Nur-Sultan, Kazakhstan",
                 "lang": "ru",
                 "title": "Почему фронтенд это круто",
