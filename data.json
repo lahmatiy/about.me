@@ -641,6 +641,14 @@
                     "media": {
                         "soundcloud": "https://soundcloud.com/frontend-weekend/fw-25"
                     }
+                },
+                {
+                    "num": "102",
+                    "date": "2019-12-30",
+                    "title": "Роман Дворнов: что изменилось за два года или об уходе из Avito, переезде в Прагу и целях open source'а",
+                    "media": {
+                        "soundcloud": "https://soundcloud.com/frontend-weekend/fw-102"
+                    }
                 }
             ]
         },

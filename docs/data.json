@@ -1,6 +1,6 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2019-12-20T16:49:08.521Z",
+    "createdAt": "2020-01-06T21:52:03.400Z",
     "elapsedTime": 2,
     "data": {
         "who": {
@@ -768,6 +768,14 @@
                         "title": "Роман Дворнов о том, как создавать Open Source и не перегореть",
                         "media": {
                             "soundcloud": "https://soundcloud.com/frontend-weekend/fw-25"
+                        }
+                    },
+                    {
+                        "num": "102",
+                        "date": "2019-12-30",
+                        "title": "Роман Дворнов: что изменилось за два года или об уходе из Avito, переезде в Прагу и целях open source'а",
+                        "media": {
+                            "soundcloud": "https://soundcloud.com/frontend-weekend/fw-102"
                         }
                     }
                 ]

@@ -1,6 +1,7 @@
 {
   "name": "about.me",
   "version": "0.0.0",
+  "private": true,
   "description": "Home page of Roman Dvornov",
   "scripts": {
     "start": "discovery",
