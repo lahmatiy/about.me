@@ -1,37 +1,32 @@
-.discovery-content-badges {
-    position: fixed;
-    top: 10px;
-    right: 15px;
-    z-index: 1;
-    border-radius: 20px;
-    box-shadow:
-        1px 3px 12px 0px rgba(0, 0, 0, .25),
-        0 -1px 1px rgba(0, 0, 0, .25) inset;
-}
-.discovery-content-badges > .badge {
-    background: white;
-}
-
 .page-default {
-    padding: 0 !important;
-    margin: 0px -30px -10px;
+    padding: 20px 10px !important;
 }
 
 .page-default .view-struct {
     margin: 0;
     font-size: 13px;
     line-height: 1.8;
-    background: none;
+    background-color: transparent;
     overflow: visible;
 }
-.page-default .view-struct.struct-expanded-value,
+.page-default .view-struct.struct-expanded-value {
+    background-position: 12px 30px;
+    background-size: 1px calc(100% - 59px);
+}
 .page-default .view-struct .struct-expanded-value {
     background-size: 1px calc(100% - 43px);
-    background-position: 4.85ex 22px;
 }
 
 @media (hover:none), (hover:on-demand) { 
     .discovery-content {
         overflow: visible;
+    }
+}
+
+@media (hover:none), (hover:on-demand) {
+    .discovery-root-darkmode .view-struct .struct-action-button {
+        color: #aaa;
+        background: #50505080;
+        border-color: rgba(100, 100, 100, 0.2);
     }
 }
