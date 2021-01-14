@@ -1,14 +1,14 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2021-01-14T22:57:10.292Z",
-    "elapsedTime": 1,
+    "createdAt": "2021-01-14T23:16:06.434Z",
+    "elapsedTime": 0,
     "data": {
         "who": {
             "name": "Roman Dvornov",
-            "bio": "Frontend researcher, contributor and author of Open Source projects, web standards evangelist, speaker. I like engineering challenges, passionate in web technologies, performance, developer tooling, software analytics, frontend architecture and related subjects",
+            "bio": "Frontend researcher, Open Source project author and contributor, web standards evangelist. I like engineering challenges, passionate in web technologies, performance, developer tooling, software analytics, frontend architecture and related subjects",
             "email": "rdvornov@gmail.com",
             "github": "https://github.com/lahmatiy",
-            "telegram-channel": "https://t.me/gorshochekvarit",
+            "telegramChannel": "https://t.me/gorshochekvarit",
             "twitter": "https://twitter.com/rdvornov",
             "facebook": "https://www.facebook.com/roman.dvornov",
             "instagram": "https://www.instagram.com/rdvornov",
