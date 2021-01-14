@@ -1,13 +1,14 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2021-01-14T22:55:43.789Z",
+    "createdAt": "2021-01-14T22:57:10.292Z",
     "elapsedTime": 1,
     "data": {
         "who": {
             "name": "Roman Dvornov",
-            "bio": "Author of several Open Source projects, contributor, researcher, evangelist for web standards, inspirer and speaker. Passionate in web technologies, tooling, architecture and related subjects",
+            "bio": "Frontend researcher, contributor and author of Open Source projects, web standards evangelist, speaker. I like engineering challenges, passionate in web technologies, performance, developer tooling, software analytics, frontend architecture and related subjects",
             "email": "rdvornov@gmail.com",
             "github": "https://github.com/lahmatiy",
+            "telegram-channel": "https://t.me/gorshochekvarit",
             "twitter": "https://twitter.com/rdvornov",
             "facebook": "https://www.facebook.com/roman.dvornov",
             "instagram": "https://www.instagram.com/rdvornov",
@@ -18,19 +19,124 @@
         },
         "projects": [
             {
-                "name": "discovery",
-                "description": "Hackable JSON discovery tool",
-                "url": "https://github.com/discoveryjs"
+                "name": "json-ext",
+                "package": "@discoveryjs/json-ext",
+                "description": "A set of utilities that extend the use of JSON. Designed to be fast and memory efficient",
+                "url": "https://github.com/discoveryjs/json-ext"
+            },
+            {
+                "name": "Discoveryjs",
+                "description": "Frontend framework for rapid data (JSON) analysis, sharable serverless reports and dashboards",
+                "url": "https://github.com/discoveryjs",
+                "satellites": [
+                    {
+                        "name": "discovery-cli",
+                        "package": "@discoveryjs/cli",
+                        "description": "CLI tools to serve & build projects based on Discovery.js",
+                        "url": "https://github.com/discoveryjs/discovery-cli"
+                    },
+                    {
+                        "name": "JsonDiscovery",
+                        "description": "Browser (Chrome, Firefox) extension for JSON discovery",
+                        "url": "https://github.com/discoveryjs/browser-extension-json-discovery",
+                        "role": "contibutor"
+                    },
+                    {
+                        "name": "@discoveryjs/scan-fs",
+                        "description": "An utility for seeking files by file system scanning and optionally populating file info with processing their content",
+                        "url": "https://github.com/discoveryjs/scan-fs"
+                    },
+                    {
+                        "name": "@discoveryjs/node-modules",
+                        "description": "An utility for scan and analyze packages in `node_modules`",
+                        "url": "https://github.com/discoveryjs/node-modules"
+                    }
+                ]
             },
             {
                 "name": "jora",
                 "description": "JavaScript object query engine",
-                "url": "https://github.com/discoveryjs/jora"
+                "url": "https://github.com/discoveryjs/jora",
+                "satellites": [
+                    {
+                        "name": "jora-cli",
+                        "description": "Command line interface for jora (a JSON query language)",
+                        "url": "https://github.com/discoveryjs/jora-cli"
+                    },
+                    {
+                        "name": "jora-sandbox",
+                        "description": "A Web interface to play with Jora (a JSON query language) syntax or transform some JSON with zero setup",
+                        "url": "https://github.com/discoveryjs/jora-sandbox"
+                    }
+                ]
+            },
+            {
+                "name": "jison (remastered)",
+                "description": "A fork of Jison (parser generator by Zach Carter, currently unmaintained) that was refactored to use ES6+ features, drop redundants, minor bug fixes",
+                "fork": true,
+                "url": "https://github.com/lahmatiy/jison"
             },
             {
                 "name": "CSSTree",
-                "description": "A tool set for working with CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations",
-                "url": "https://github.com/csstree"
+                "description": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations",
+                "url": "https://github.com/csstree",
+                "satellites": [
+                    {
+                        "name": "csstree-validator",
+                        "description": "CSS validator based on CSSTree",
+                        "url": "https://github.com/csstree/validator"
+                    },
+                    {
+                        "name": "stylelint-csstree-validator",
+                        "description": "Stylelint plugin to validate CSS syntax",
+                        "url": "https://github.com/csstree/stylelint-validator"
+                    },
+                    {
+                        "name": "vscode-csstree",
+                        "description": "CSSTree validation plugin for VS Code",
+                        "url": "https://github.com/csstree/vscode-plugin"
+                    }
+                ]
+            },
+            {
+                "name": "CSS syntax reference",
+                "description": "CSS syntax reference (mdn/data & CSSTree)",
+                "url": "https://csstree.github.io/docs/syntax/"
+            },
+            {
+                "name": "CSSWG spec drafts index",
+                "description": "Index of CSSWG drafts (specifications in their latest form)",
+                "url": "https://github.com/csstree/csswg-drafts-index",
+                "repo": "https://github.com/csstree/docs"
+            },
+            {
+                "name": "Real Web CSS",
+                "description": "Use CSSTree to test a real site CSS and collect a data",
+                "url": "https://github.com/csstree/real-web-css"
+            },
+            {
+                "name": "CSSO",
+                "description": "CSS minifier with structural optimizations",
+                "role": "maintainer",
+                "url": "https://github.com/css/csso",
+                "satellites": [
+                    {
+                        "name": "csso-cli",
+                        "description": "Command line interface for CSSO",
+                        "url": "https://github.com/css/csso-cli"
+                    },
+                    {
+                        "name": "postcss-csso",
+                        "description": "PostCSS plugin to minify CSS using CSSO",
+                        "url": "https://github.com/lahmatiy/postcss-csso"
+                    },
+                    {
+                        "name": "gulp-csso",
+                        "description": "CSSO plugin for Gulp",
+                        "url": "https://github.com/ben-eb/gulp-csso",
+                        "role": "maintainer"
+                    }
+                ]
             },
             {
                 "name": "rempl",
@@ -40,12 +146,14 @@
             {
                 "name": "hitext",
                 "description": "Text decoration done right",
-                "url": "https://github.com/hitext"
-            },
-            {
-                "name": "CSSO",
-                "description": "CSS minifier with structural optimizations",
-                "url": "https://github.com/css/csso"
+                "url": "https://github.com/hitext",
+                "satellites": [
+                    {
+                        "name": "hitext-prismjs",
+                        "description": "Prism.js adapter for HiText",
+                        "url": "https://github.com/hitext/prismjs"
+                    }
+                ]
             },
             {
                 "name": "Component Inspector",
@@ -54,8 +162,123 @@
             },
             {
                 "name": "basis.js",
-                "description": "JavaScript framework to build single page applications",
+                "description": "JavaScript framework to build single page applications and developing tool chain. I've been working on the project for ~10 years and build dozen apps based on it (CRM, complex dashboards etc)",
                 "url": "https://github.com/basisjs"
+            },
+            {
+                "name": "open-in-editor",
+                "description": "NPM package to open a file in editor from a Node.js script",
+                "url": "https://github.com/lahmatiy/open-in-editor",
+                "satellites": [
+                    {
+                        "name": "express-open-in-editor",
+                        "description": "Express extension to open file in editor",
+                        "url": "https://github.com/lahmatiy/express-open-in-editor"
+                    }
+                ]
+            },
+            {
+                "name": "clap",
+                "description": "Command line argument parser",
+                "url": "https://github.com/lahmatiy/clap"
+            },
+            {
+                "name": "babel-plugin-source-wrapper",
+                "description": "Babel plugin for code instrumenting by wrapping code fragments with special functions",
+                "role": "maintainer",
+                "url": "https://github.com/restrry/babel-plugin-source-wrapper"
+            },
+            {
+                "name": "source-fragment",
+                "description": "Fetch source file fragment with highlighting",
+                "url": "https://github.com/lahmatiy/source-fragment",
+                "satellites": [
+                    {
+                        "name": "express-source-fragment",
+                        "description": "Express middleware to get file source fragment",
+                        "url": "https://github.com/lahmatiy/express-source-fragment"
+                    }
+                ]
+            },
+            {
+                "name": "multibar",
+                "description": "Simple and robust tty progress bar with multiple instance support",
+                "url": "https://github.com/lahmatiy/multibar"
+            },
+            {
+                "name": "es6-promise-polyfill",
+                "description": "ES6 Promise polyfill",
+                "url": "https://github.com/lahmatiy/es6-promise-polyfill"
+            }
+        ],
+        "articles": [
+            {
+                "title": "Discovery.js tutorials: quick start",
+                "date": "2019-09-16",
+                "url": "https://dev.to/rdvornov/discovery-js-tutorials-quick-start-m3k",
+                "translations": [
+                    {
+                        "title": "Руководство по Discovery.js: быстрый старт",
+                        "date": "2019-09-27",
+                        "lang": "ru",
+                        "url": "https://habr.com/ru/company/mailru/blog/469115/",
+                        "role": "editor"
+                    }
+                ]
+            },
+            {
+                "title": "JsonDiscovery: Changing a way we’re viewing JSON in a browser",
+                "date": "2019-07-23",
+                "url": "https://blog.usejournal.com/changing-a-way-were-viewing-json-in-a-browser-51eda9103fa2",
+                "translations": [
+                    {
+                        "title": "JsonDiscovery: Меняем опыт просмотра JSON в браузере",
+                        "date": "2019-07-24",
+                        "lang": "ru",
+                        "url": "https://habr.com/ru/post/461185/",
+                        "role": "translator"
+                    }
+                ]
+            },
+            {
+                "title": "Unit-тестирование скриншотами: преодолеваем звуковой барьер. Расшифровка доклада",
+                "date": "2018-03-14",
+                "url": "https://habr.com/ru/company/avito/blog/350604/"
+            },
+            {
+                "title": "Руководство по basis.js. Часть 1: Начало работы, представления, модули, инструменты",
+                "date": "2014-03-21",
+                "url": "https://habr.com/ru/post/216577/"
+            },
+            {
+                "title": "Копируем исходный код без нумерации строк",
+                "date": "2011-02-22",
+                "url": "https://habr.com/ru/post/114322/"
+            },
+            {
+                "title": "Электронное табло 2 или с пользой для общества",
+                "date": "2009-07-16",
+                "url": "https://habr.com/ru/post/64381/"
+            },
+            {
+                "title": "Safari для веб-разработчиков",
+                "date": "2008-02-12",
+                "url": "https://habr.com/ru/post/20159/"
+            },
+            {
+                "title": "text-overflow в Firefox и все, все, все",
+                "date": "2008-02-07",
+                "url": "https://habr.com/ru/post/19933/"
+            },
+            {
+                "title": "Как запретить браузеру выделять текст",
+                "date": "2007-12-26",
+                "url": "https://habr.com/ru/post/18080/"
+            },
+            {
+                "title": "Выкрутасы Opera",
+                "date": "2007-12-25",
+                "url": "https://habr.com/ru/post/18017/"
             }
         ],
         "talks": [
@@ -666,8 +889,56 @@
         ],
         "eventProduction": [
             {
-                "date": "2015-02-28",
+                "date": "2019-08-17",
                 "event": "SPA Meetup",
+                "location": "Moscow, Russia",
+                "roles": [
+                    "organizer",
+                    "program committee",
+                    "host"
+                ]
+            },
+            {
+                "date": "2018-04-07",
+                "event": "SPA Meetup",
+                "location": "Moscow, Russia",
+                "roles": [
+                    "organizer",
+                    "program committee",
+                    "host"
+                ]
+            },
+            {
+                "date": "2017-04-08",
+                "event": "SPA Meetup",
+                "location": "Moscow, Russia",
+                "roles": [
+                    "organizer",
+                    "program committee",
+                    "host"
+                ]
+            },
+            {
+                "date": "2016-04-23",
+                "event": "SPA Meetup",
+                "location": "Moscow, Russia",
+                "roles": [
+                    "organizer",
+                    "program committee",
+                    "host"
+                ]
+            },
+            {
+                "date": "2016-03-31",
+                "event": "MoscowJS",
+                "location": "Moscow, Russia",
+                "roles": [
+                    "host"
+                ]
+            },
+            {
+                "date": "2015-07-04",
+                "event": "Mobile Frontend Meetup",
                 "location": "Moscow, Russia",
                 "roles": [
                     "organizer",
@@ -688,55 +959,7 @@
                 ]
             },
             {
-                "date": "2015-07-04",
-                "event": "Mobile Frontend Meetup",
-                "location": "Moscow, Russia",
-                "roles": [
-                    "organizer",
-                    "program committee",
-                    "host"
-                ]
-            },
-            {
-                "date": "2016-03-31",
-                "event": "MoscowJS",
-                "location": "Moscow, Russia",
-                "roles": [
-                    "host"
-                ]
-            },
-            {
-                "date": "2016-04-23",
-                "event": "SPA Meetup",
-                "location": "Moscow, Russia",
-                "roles": [
-                    "organizer",
-                    "program committee",
-                    "host"
-                ]
-            },
-            {
-                "date": "2017-04-08",
-                "event": "SPA Meetup",
-                "location": "Moscow, Russia",
-                "roles": [
-                    "organizer",
-                    "program committee",
-                    "host"
-                ]
-            },
-            {
-                "date": "2018-04-07",
-                "event": "SPA Meetup",
-                "location": "Moscow, Russia",
-                "roles": [
-                    "organizer",
-                    "program committee",
-                    "host"
-                ]
-            },
-            {
-                "date": "2019-08-17",
+                "date": "2015-02-28",
                 "event": "SPA Meetup",
                 "location": "Moscow, Russia",
                 "roles": [
@@ -803,10 +1026,23 @@
                         "num": "34",
                         "date": "2016-09-20",
                         "summary": "Новинки Гитхаба, Chrome, Safari, спеки HTML и SVG, новые API, письма, шрифты, JS для дизайнеров, Sass, PostCSS и CSSTree",
+                        "url": "https://github.com/web-standards-ru/podcast/blob/master/src/episodes/34.md",
                         "media": {
                             "itunes": "https://podcasts.apple.com/us/podcast/%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-34/id1080500016?i=1000402573851",
                             "soundcloud": "https://soundcloud.com/web-standards/episode-34",
                             "mp3": "https://web-standards.ru/podcast/episodes/34.mp3"
+                        }
+                    },
+                    {
+                        "num": "250",
+                        "date": "2020-10-06",
+                        "summary": "Edge в VS Code, инспектор гридов, gap и флексы, математика в CSS, Hacktoberfest, опенсорс",
+                        "url": "https://github.com/web-standards-ru/podcast/blob/master/src/episodes/250.md",
+                        "media": {
+                            "medium": "https://medium.com/web-standards/episode-250-227301714b26",
+                            "itunes": "https://podcasts.apple.com/us/podcast/250-edge-%D0%B2-vs-code-%D0%B8%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%B3%D1%80%D0%B8%D0%B4%D0%BE%D0%B2-gap-%D0%B8-%D1%84%D0%BB%D0%B5%D0%BA%D1%81%D1%8B-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/id1080500016?i=1000493759496",
+                            "soundcloud": "https://soundcloud.com/web-standards/episode-250",
+                            "mp3": "https://web-standards.ru/podcast/episodes/250.mp3"
                         }
                     }
                 ]
