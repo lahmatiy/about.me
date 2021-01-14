@@ -209,13 +209,13 @@
     ],
     "articles": [
         {
-            "title": "Discovery.js tutorials: quick start",
             "date": "2019-09-16",
+            "title": "Discovery.js tutorials: quick start",
             "url": "https://dev.to/rdvornov/discovery-js-tutorials-quick-start-m3k",
             "translations": [
                 {
-                    "title": "Руководство по Discovery.js: быстрый старт",
                     "date": "2019-09-27",
+                    "title": "Руководство по Discovery.js: быстрый старт",
                     "lang": "ru",
                     "url": "https://habr.com/ru/company/mailru/blog/469115/",
                     "role": "editor"
@@ -223,13 +223,13 @@
             ]
         },
         {
-            "title": "JsonDiscovery: Changing a way we’re viewing JSON in a browser",
             "date": "2019-07-23",
+            "title": "JsonDiscovery: Changing a way we’re viewing JSON in a browser",
             "url": "https://blog.usejournal.com/changing-a-way-were-viewing-json-in-a-browser-51eda9103fa2",
             "translations": [
                 {
-                    "title": "JsonDiscovery: Меняем опыт просмотра JSON в браузере",
                     "date": "2019-07-24",
+                    "title": "JsonDiscovery: Меняем опыт просмотра JSON в браузере",
                     "lang": "ru",
                     "url": "https://habr.com/ru/post/461185/",
                     "role": "translator"
@@ -237,43 +237,43 @@
             ]
         },
         {
-            "title": "Unit-тестирование скриншотами: преодолеваем звуковой барьер. Расшифровка доклада",
             "date": "2018-03-14",
+            "title": "Unit-тестирование скриншотами: преодолеваем звуковой барьер. Расшифровка доклада",
             "url": "https://habr.com/ru/company/avito/blog/350604/"
         },
         {
-            "title": "Руководство по basis.js. Часть 1: Начало работы, представления, модули, инструменты",
             "date": "2014-03-21",
+            "title": "Руководство по basis.js. Часть 1: Начало работы, представления, модули, инструменты",
             "url": "https://habr.com/ru/post/216577/"
         },
         {
-            "title": "Копируем исходный код без нумерации строк",
             "date": "2011-02-22",
+            "title": "Копируем исходный код без нумерации строк",
             "url": "https://habr.com/ru/post/114322/"
         },
         {
-            "title": "Электронное табло 2 или с пользой для общества",
             "date": "2009-07-16",
+            "title": "Электронное табло 2 или с пользой для общества",
             "url": "https://habr.com/ru/post/64381/"
         },
         {
-            "title": "Safari для веб-разработчиков",
             "date": "2008-02-12",
+            "title": "Safari для веб-разработчиков",
             "url": "https://habr.com/ru/post/20159/"
         },
         {
-            "title": "text-overflow в Firefox и все, все, все",
             "date": "2008-02-07",
+            "title": "text-overflow в Firefox и все, все, все",
             "url": "https://habr.com/ru/post/19933/"
         },
         {
-            "title": "Как запретить браузеру выделять текст",
             "date": "2007-12-26",
+            "title": "Как запретить браузеру выделять текст",
             "url": "https://habr.com/ru/post/18080/"
         },
         {
-            "title": "Выкрутасы Opera",
             "date": "2007-12-25",
+            "title": "Выкрутасы Opera",
             "url": "https://habr.com/ru/post/18017/"
         }
     ],
