@@ -1,6 +1,6 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2021-01-15T10:10:49.296Z",
+    "createdAt": "2021-01-15T10:12:23.766Z",
     "elapsedTime": 0,
     "data": {
         "who": {
@@ -966,6 +966,7 @@
             {
                 "date": "2015-05-21",
                 "title": "FrontendConf",
+                "url": "https://frontendconf.ru/2016",
                 "location": "Moscow, Russia",
                 "roles": [
                     "program committee",
