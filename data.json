@@ -1,7 +1,7 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2021-01-15T03:15:01.469Z",
-    "elapsedTime": 1,
+    "createdAt": "2021-01-15T10:10:49.296Z",
+    "elapsedTime": 0,
     "data": {
         "who": {
             "name": "Roman Dvornov",
@@ -896,7 +896,9 @@
         "eventProduction": [
             {
                 "date": "2019-08-17",
-                "event": "SPA Meetup",
+                "title": "SPA Meetup",
+                "num": 5,
+                "url": "https://moscow-spa.timepad.ru/event/1028283/",
                 "location": "Moscow, Russia",
                 "roles": [
                     "organizer",
@@ -906,7 +908,9 @@
             },
             {
                 "date": "2018-04-07",
-                "event": "SPA Meetup",
+                "title": "SPA Meetup",
+                "num": 4,
+                "url": "https://moscow-spa.timepad.ru/event/692653/",
                 "location": "Moscow, Russia",
                 "roles": [
                     "organizer",
@@ -916,7 +920,9 @@
             },
             {
                 "date": "2017-04-08",
-                "event": "SPA Meetup",
+                "title": "SPA Meetup",
+                "num": 3,
+                "url": "https://moscow-spa.timepad.ru/event/463443/",
                 "location": "Moscow, Russia",
                 "roles": [
                     "organizer",
@@ -926,7 +932,9 @@
             },
             {
                 "date": "2016-04-23",
-                "event": "SPA Meetup",
+                "title": "SPA Meetup",
+                "num": 2,
+                "url": "https://github.com/moscow-spa-meetup/meetup-2",
                 "location": "Moscow, Russia",
                 "roles": [
                     "organizer",
@@ -936,15 +944,18 @@
             },
             {
                 "date": "2016-03-31",
-                "event": "MoscowJS",
+                "title": "MoscowJS",
+                "num": 29,
                 "location": "Moscow, Russia",
+                "url": "https://moscowjs.org/events/moscowjs-29/",
                 "roles": [
                     "host"
                 ]
             },
             {
                 "date": "2015-07-04",
-                "event": "Mobile Frontend Meetup",
+                "title": "Mobile Frontend Meetup",
+                "url": "https://github.com/moscow-spa-meetup/mobile-frontend-meetup-1",
                 "location": "Moscow, Russia",
                 "roles": [
                     "organizer",
@@ -954,7 +965,7 @@
             },
             {
                 "date": "2015-05-21",
-                "event": "FrontendConf",
+                "title": "FrontendConf",
                 "location": "Moscow, Russia",
                 "roles": [
                     "program committee",
@@ -963,7 +974,9 @@
             },
             {
                 "date": "2015-02-28",
-                "event": "SPA Meetup",
+                "title": "SPA Meetup",
+                "num": 1,
+                "url": "https://github.com/moscow-spa-meetup/meetup-1",
                 "location": "Moscow, Russia",
                 "roles": [
                     "organizer",
