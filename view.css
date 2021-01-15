@@ -1,5 +1,5 @@
 .page-default {
-    padding: 10px 10px !important;
+    padding: 10px !important;
 }
 
 .page-default .view-struct {
@@ -19,7 +19,7 @@
 
 .page-default .for-humans {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 .page-default .projects .view-badge,
 .page-default .shows .view-badge {
