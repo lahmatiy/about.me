@@ -1,5 +1,5 @@
 .page-default {
-    padding: 20px 10px !important;
+    padding: 10px 10px !important;
 }
 
 .page-default .view-struct {
@@ -15,6 +15,34 @@
 }
 .page-default .view-struct .struct-expanded-value {
     background-size: 1px calc(100% - 43px);
+}
+
+.page-default .for-humans {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.page-default .projects .view-badge,
+.page-default .shows .view-badge {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.page-default .projects,
+.page-default .talks,
+.page-default .shows {
+    column-width: 350px;
+    column-gap: 80px;
+}
+.page-default .projects .view-list-item,
+.page-default .talks .view-list-item,
+.page-default .shows .view-list-item {
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    column-break-inside: avoid;
+}
+
+.talk-details {
+    font-size: 11px;
+    opacity: .5;
 }
 
 @media (hover:none), (hover:on-demand) { 
