@@ -7,12 +7,12 @@ discovery.page.define('default', {
         value: '=#.params.mode',
         data: [
             {
-                value: 'oldschool',
-                text: 'For geeks'
+                value: 'forhumans',
+                text: 'For everyone'
             },
             {
-                value: 'forhumans',
-                text: 'For others'
+                value: 'forgeeks',
+                text: 'For geeks'
             }
         ],
         afterToggles: 'md:"Powered by [Discovery.js](https://github.com/discoveryjs/discovery)"'
@@ -25,7 +25,7 @@ discovery.page.define('default', {
             }
             
             // FIXME: make it simpler in discovery
-            discovery.setPageParams(context.mode !== 'oldschool' ? { mode: context.mode } : {}, true);
+            discovery.setPageParams(context.mode !== 'forhumans' ? { mode: context.mode } : {}, true);
             discovery.cancelScheduledRender();
             context.params = discovery.pageParams;
         },
