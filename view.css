@@ -2,6 +2,12 @@
     padding: 10px !important;
 }
 
+.page-default .mode-toggle .view-toggle-group-after {
+    font-size: 12px;
+    margin-left: 5px;
+    opacity: .5;
+}
+
 .page-default .view-struct {
     margin: 0;
     font-size: 13px;

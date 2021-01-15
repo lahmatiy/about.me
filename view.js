@@ -2,6 +2,7 @@ discovery.page.define('default', {
     view: 'context',
     modifiers: {
         view: 'toggle-group',
+        className: 'mode-toggle',
         name: 'mode',
         value: '=#.params.mode',
         data: [
@@ -13,7 +14,8 @@ discovery.page.define('default', {
                 value: 'forhumans',
                 text: 'For others'
             }
-        ]
+        ],
+        afterToggles: 'md:"Powered by [Discovery.js](https://github.com/discoveryjs/discovery)"'
     },
     content: [
         function (el, config, data, context) {
