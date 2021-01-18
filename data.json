@@ -1,6 +1,6 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2021-01-15T11:23:30.852Z",
+    "createdAt": "2021-01-18T17:30:51.723Z",
     "elapsedTime": 1,
     "data": {
         "who": {
@@ -22,12 +22,14 @@
                 "title": "json-ext",
                 "package": "@discoveryjs/json-ext",
                 "description": "A set of utilities that extend the use of JSON (make possible to work with 500MB+ JSON, see benchmarks). Designed to be fast and memory efficient",
-                "url": "https://github.com/discoveryjs/json-ext"
+                "url": "https://github.com/discoveryjs/json-ext",
+                "spotlight": true
             },
             {
                 "title": "Discoveryjs",
                 "description": "Frontend framework for rapid data (JSON) analysis, sharable serverless reports and dashboards",
                 "url": "https://github.com/discoveryjs",
+                "spotlight": true,
                 "satellites": [
                     {
                         "title": "discovery-cli",
@@ -39,7 +41,8 @@
                         "title": "JsonDiscovery",
                         "description": "Browser (Chrome, Firefox) extension for JSON discovery",
                         "url": "https://github.com/discoveryjs/browser-extension-json-discovery",
-                        "role": "contibutor"
+                        "role": "contibutor",
+                        "spotlight": true
                     },
                     {
                         "title": "scan-fs",
@@ -59,6 +62,7 @@
                 "title": "jora",
                 "description": "JavaScript object query engine",
                 "url": "https://github.com/discoveryjs/jora",
+                "spotlight": true,
                 "satellites": [
                     {
                         "title": "jora-cli",
@@ -82,6 +86,7 @@
                 "title": "CSSTree",
                 "description": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations",
                 "url": "https://github.com/csstree",
+                "spotlight": true,
                 "satellites": [
                     {
                         "title": "csstree-validator",
@@ -103,7 +108,8 @@
             {
                 "title": "CSS syntax reference",
                 "description": "CSS syntax reference (mdn/data & CSSTree)",
-                "url": "https://csstree.github.io/docs/syntax/"
+                "url": "https://csstree.github.io/docs/syntax/",
+                "spotlight": true
             },
             {
                 "title": "CSSWG spec drafts index",
@@ -121,6 +127,7 @@
                 "description": "CSS minifier with structural optimizations",
                 "role": "maintainer",
                 "url": "https://github.com/css/csso",
+                "spotlight": true,
                 "satellites": [
                     {
                         "title": "csso-cli",
