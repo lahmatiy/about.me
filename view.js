@@ -1,21 +1,24 @@
 discovery.page.define('default', {
     view: 'context',
     modifiers: {
-        view: 'toggle-group',
+        view: 'block',
         className: 'mode-toggle',
-        name: 'mode',
-        value: '=#.params.mode',
-        data: [
-            {
-                value: 'forhumans',
-                text: 'For everyone'
-            },
-            {
-                value: 'forgeeks',
-                text: 'For geeks'
-            }
-        ],
-        afterToggles: 'md:"Powered by [Discovery.js](https://github.com/discoveryjs/discovery)"'
+        content: {
+            view: 'toggle-group',
+            name: 'mode',
+            value: '=#.params.mode',
+            data: [
+                {
+                    value: 'forhumans',
+                    text: 'For everyone'
+                },
+                {
+                    value: 'forgeeks',
+                    text: 'For geeks'
+                }
+            ],
+            afterToggles: 'md:"Powered by [Discovery.js](https://github.com/discoveryjs/discovery)"'
+        }
     },
     content: [
         function (el, config, data, context) {
@@ -51,6 +54,12 @@ discovery.page.define('default', {
                             limit: false,
                             data: 'projects',
                             item: [
+                                {
+                                    view: 'block',
+                                    when: 'spotlight',
+                                    className: 'spotlight',
+                                    content: 'text:"★"'
+                                },
                                 'link:{ text: title, href: url, external: true }',
                                 {
                                     view: 'context',
@@ -65,6 +74,12 @@ discovery.page.define('default', {
                                     data: 'satellites',
                                     whenData: true,
                                     item: [
+                                        {
+                                            view: 'block',
+                                            when: 'spotlight',
+                                            className: 'spotlight',
+                                            content: 'text:"★"'
+                                        },
                                         'link:{ text: title, href: url, external: true }',
                                         {
                                             view: 'context',
