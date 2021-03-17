@@ -1,6 +1,6 @@
 {
     "name": "Roman Dvornov",
-    "createdAt": "2021-01-18T17:30:51.723Z",
+    "createdAt": "2021-03-17T02:23:29.419Z",
     "elapsedTime": 1,
     "data": {
         "who": {
@@ -291,6 +291,18 @@
             }
         ],
         "talks": [
+            {
+                "date": "2021-02-27",
+                "lang": "ru",
+                "title": "JSON: push the limits",
+                "event": "Я люблю фронтенд",
+                "location": "Online",
+                "video": "https://youtu.be/KpfA19oDfeA",
+                "slides": "https://www.icloud.com/keynote/0D4zKz1Ngm58rf9bkcxkJHeBg#JSON_push_the_limits",
+                "projects": [
+                    "json-ext"
+                ]
+            },
             {
                 "date": "2019-11-09",
                 "lang": "ru",
