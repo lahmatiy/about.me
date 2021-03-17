@@ -288,6 +288,18 @@
     ],
     "talks": [
         {
+            "date": "2021-02-27",
+            "lang": "ru",
+            "title": "JSON: push the limits",
+            "event": "Я люблю фронтенд",
+            "location": "Online",
+            "video": "https://youtu.be/KpfA19oDfeA",
+            "slides": "https://www.icloud.com/keynote/0D4zKz1Ngm58rf9bkcxkJHeBg#JSON_push_the_limits",
+            "projects": [
+                "json-ext"
+            ]
+        },
+        {
             "date": "2019-11-09",
             "lang": "ru",
             "title": "CSS Definition Syntax",
