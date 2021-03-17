@@ -5,8 +5,8 @@ module.exports = {
     favicon: __dirname + '/rdvornov.jpg',
     view: {
         assets: [
-            'view.js',
-            'view.css'
+            './view.js',
+            './view.css'
         ]
     }
 };

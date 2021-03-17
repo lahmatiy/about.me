@@ -5,11 +5,11 @@
     "description": "Roman Dvornov's Homepage",
     "scripts": {
         "start": "discovery",
-        "build": "discovery-build -o docs --pretty-data"
+        "build": "discovery-build -o build --pretty-data"
     },
     "homepage": "https://github.com/lahmatiy/about.me#readme",
     "dependencies": {
-        "@discoveryjs/cli": "^1.15.0",
-        "@discoveryjs/discovery": "^1.0.0-beta.42"
+        "@discoveryjs/cli": "^2.0.0-beta.11",
+        "@discoveryjs/discovery": "^1.0.0-beta.59"
     }
 }
