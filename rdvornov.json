@@ -15,6 +15,13 @@
     },
     "projects": [
         {
+            "title": "React Render Tracker",
+            "package": "react-render-tracker",
+            "description": "A tool to discover performance issues related to unintentional re-renders and unmounts",
+            "url": "https://github.com/lahmatiy/react-render-tracker",
+            "spotlight": true
+        },
+        {
             "title": "json-ext",
             "package": "@discoveryjs/json-ext",
             "description": "A set of utilities that extend the use of JSON (make possible to work with 500MB+ JSON, see benchmarks). Designed to be fast and memory efficient",
