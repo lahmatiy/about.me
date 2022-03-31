@@ -1,3 +1,8 @@
+discovery.nav.menu.append({
+    content: 'text:"Open on GitHub"',
+    data: { href: 'https://github.com/lahmatiy/about.me' }
+});
+
 discovery.page.define('default', {
     view: 'context',
     modifiers: {
