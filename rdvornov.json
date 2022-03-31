@@ -15,6 +15,13 @@
     },
     "projects": [
         {
+            "title": "cpupro",
+            "package": "cpupro",
+            "description": "Rethinking of CPU profile capturing and analysis",
+            "url": "https://github.com/lahmatiy/cpupro",
+            "spotlight": true
+        },
+        {
             "title": "React Render Tracker",
             "package": "react-render-tracker",
             "description": "A tool to discover performance issues related to unintentional re-renders and unmounts",
