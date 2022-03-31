@@ -152,7 +152,7 @@
         },
         {
             "title": "rempl",
-            "description": "Рlatform for moderated remote access to JavaScript runtime via custom UI",
+            "description": "Platform for moderated remote access to JavaScript runtime via custom UI",
             "url": "https://github.com/rempl"
         },
         {
@@ -174,7 +174,7 @@
         },
         {
             "title": "basis.js",
-            "description": "JavaScript framework to build single page applications and developing tool chain. I've been working on the project for ~10 years and build dozen apps based on it (CRM, complex dashboards etc)",
+            "description": "JavaScript framework to build single page applications and developing tool chain. I've been working on the project for ~10 years and build dozens of apps based on it (CRM, complex dashboards etc)",
             "url": "https://github.com/basisjs"
         },
         {
@@ -240,7 +240,7 @@
         },
         {
             "date": "2019-07-23",
-            "title": "JsonDiscovery: Changing a way we’re viewing JSON in a browser",
+            "title": "JsonDiscovery: Changing a way we're viewing JSON in a browser",
             "url": "https://blog.usejournal.com/changing-a-way-were-viewing-json-in-a-browser-51eda9103fa2",
             "translations": [
                 {
