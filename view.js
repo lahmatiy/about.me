@@ -27,11 +27,6 @@ discovery.page.define('default', {
     },
     content: [
         function (el, config, data, context) {
-            // FIXME: workaround a bug in discovery when pageHash has wrong value on start
-            if (discovery.pageHash === '#' && context.params.mode) {
-                discovery.pageHash = null;
-            }
-            
             // FIXME: make it simpler in discovery
             discovery.setPageParams(context.mode !== 'forhumans' ? { mode: context.mode } : {}, true);
             discovery.cancelScheduledRender();
@@ -52,7 +47,7 @@ discovery.page.define('default', {
                             item: 'badge:{ text: key, href: value, external: true }'
                         },
 
-                        'h2:"Open Source Projects"',
+                        'h2:"Open Source projects"',
                         {
                             view: 'ol',
                             className: 'projects',
