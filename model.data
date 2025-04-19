@@ -1,0 +1,1161 @@
+{
+    "who": {
+        "name": "Roman Dvornov",
+        "bio": "Frontend researcher, Open Source project author and contributor, web standards evangelist. I like engineering challenges, passionate in web technologies, performance, developer tooling, software analytics, frontend architecture and related subjects.",
+        "email": "rdvornov@gmail.com",
+        "github": "https://github.com/lahmatiy",
+        "telegramChannel": "https://t.me/gorshochekvarit",
+        "twitter": "https://twitter.com/rdvornov",
+        "facebook": "https://www.facebook.com/roman.dvornov",
+        "instagram": "https://www.instagram.com/rdvornov",
+        "youtube": "https://www.youtube.com/RomanDvornov",
+        "medium": "https://medium.com/@rdvornov",
+        "devto": "https://dev.to/rdvornov",
+        "habr": "https://habr.com/users/lahmatiy"
+    },
+    "projects": [
+        {
+            "title": "cpupro",
+            "package": "cpupro",
+            "description": "Rethinking of CPU profile capturing and analysis",
+            "url": "https://github.com/lahmatiy/cpupro",
+            "spotlight": true
+        },
+        {
+            "title": "React Render Tracker",
+            "package": "react-render-tracker",
+            "description": "A tool to discover performance issues related to unintentional re-renders and unmounts",
+            "url": "https://github.com/lahmatiy/react-render-tracker",
+            "spotlight": true
+        },
+        {
+            "title": "json-ext",
+            "package": "@discoveryjs/json-ext",
+            "description": "A set of utilities that extend the use of JSON (make possible to work with 500MB+ JSON, see benchmarks). Designed to be fast and memory efficient",
+            "url": "https://github.com/discoveryjs/json-ext",
+            "spotlight": true
+        },
+        {
+            "title": "Discoveryjs",
+            "description": "Frontend framework for rapid data (JSON) analysis, sharable serverless reports and dashboards",
+            "url": "https://github.com/discoveryjs",
+            "spotlight": true,
+            "satellites": [
+                {
+                    "title": "discovery-cli",
+                    "package": "@discoveryjs/cli",
+                    "description": "CLI tools to serve & build projects based on Discovery.js",
+                    "url": "https://github.com/discoveryjs/discovery-cli"
+                },
+                {
+                    "title": "JsonDiscovery",
+                    "description": "Browser (Chrome, Firefox) extension for JSON discovery",
+                    "url": "https://github.com/discoveryjs/browser-extension-json-discovery",
+                    "role": "contibutor",
+                    "spotlight": true
+                },
+                {
+                    "title": "scan-fs",
+                    "package": "@discoveryjs/scan-fs",
+                    "description": "An utility for seeking files by file system scanning and optionally populating file info with processing their content",
+                    "url": "https://github.com/discoveryjs/scan-fs"
+                },
+                {
+                    "title": "node-modules",
+                    "package": "@discoveryjs/node-modules",
+                    "description": "An utility for scan and analyze packages in `node_modules`",
+                    "url": "https://github.com/discoveryjs/node-modules"
+                }
+            ]
+        },
+        {
+            "title": "jora",
+            "description": "JavaScript object query engine",
+            "url": "https://github.com/discoveryjs/jora",
+            "spotlight": true,
+            "satellites": [
+                {
+                    "title": "jora-cli",
+                    "description": "Command line interface for jora (a JSON query language)",
+                    "url": "https://github.com/discoveryjs/jora-cli"
+                },
+                {
+                    "title": "jora-sandbox",
+                    "description": "A Web interface to play with Jora (a JSON query language) syntax or transform some JSON with zero setup",
+                    "url": "https://github.com/discoveryjs/jora-sandbox"
+                }
+            ]
+        },
+        {
+            "title": "jison (remastered)",
+            "description": "A fork of Jison (parser generator by Zach Carter, currently unmaintained) that was refactored to use ES6+ features, drop redundants, minor bug fixes",
+            "fork": true,
+            "url": "https://github.com/lahmatiy/jison"
+        },
+        {
+            "title": "CSSTree",
+            "description": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations",
+            "url": "https://github.com/csstree",
+            "spotlight": true,
+            "satellites": [
+                {
+                    "title": "csstree-validator",
+                    "description": "CSS validator based on CSSTree",
+                    "url": "https://github.com/csstree/validator"
+                },
+                {
+                    "title": "stylelint-csstree-validator",
+                    "description": "Stylelint plugin to validate CSS syntax",
+                    "url": "https://github.com/csstree/stylelint-validator"
+                },
+                {
+                    "title": "vscode-csstree",
+                    "description": "CSSTree validation plugin for VS Code",
+                    "url": "https://github.com/csstree/vscode-plugin"
+                }
+            ]
+        },
+        {
+            "title": "CSS syntax reference",
+            "description": "CSS syntax reference (mdn/data & CSSTree)",
+            "url": "https://csstree.github.io/docs/syntax/",
+            "spotlight": true
+        },
+        {
+            "title": "CSSWG spec drafts index",
+            "description": "Index of CSSWG drafts (specifications in their latest form)",
+            "url": "https://github.com/csstree/csswg-drafts-index",
+            "repo": "https://github.com/csstree/docs"
+        },
+        {
+            "title": "Real Web CSS",
+            "description": "Use CSSTree to test a real site CSS and collect a data",
+            "url": "https://github.com/csstree/real-web-css"
+        },
+        {
+            "title": "CSSO",
+            "description": "CSS minifier with structural optimizations",
+            "role": "maintainer",
+            "url": "https://github.com/css/csso",
+            "spotlight": true,
+            "satellites": [
+                {
+                    "title": "csso-cli",
+                    "description": "Command line interface for CSSO",
+                    "url": "https://github.com/css/csso-cli"
+                },
+                {
+                    "title": "postcss-csso",
+                    "description": "PostCSS plugin to minify CSS using CSSO",
+                    "url": "https://github.com/lahmatiy/postcss-csso"
+                },
+                {
+                    "title": "gulp-csso",
+                    "description": "CSSO plugin for Gulp",
+                    "url": "https://github.com/ben-eb/gulp-csso",
+                    "role": "maintainer"
+                }
+            ]
+        },
+        {
+            "title": "rempl",
+            "description": "Platform for moderated remote access to JavaScript runtime via custom UI",
+            "url": "https://github.com/rempl"
+        },
+        {
+            "title": "hitext",
+            "description": "Text decoration done right",
+            "url": "https://github.com/hitext",
+            "satellites": [
+                {
+                    "title": "hitext-prismjs",
+                    "description": "Prism.js adapter for hitext",
+                    "url": "https://github.com/hitext/prismjs"
+                }
+            ]
+        },
+        {
+            "title": "Component Inspector",
+            "description": "Component DOM inspector",
+            "url": "https://github.com/lahmatiy/component-inspector"
+        },
+        {
+            "title": "basis.js",
+            "description": "JavaScript framework to build single page applications and developing tool chain. I've been working on the project for ~10 years and build dozens of apps based on it (CRM, complex dashboards etc)",
+            "url": "https://github.com/basisjs"
+        },
+        {
+            "title": "open-in-editor",
+            "description": "NPM package to open a file in editor from a Node.js script",
+            "url": "https://github.com/lahmatiy/open-in-editor",
+            "satellites": [
+                {
+                    "title": "express-open-in-editor",
+                    "description": "Express extension to open file in editor",
+                    "url": "https://github.com/lahmatiy/express-open-in-editor"
+                }
+            ]
+        },
+        {
+            "title": "clap",
+            "description": "Command line argument parser",
+            "url": "https://github.com/lahmatiy/clap"
+        },
+        {
+            "title": "babel-plugin-source-wrapper",
+            "description": "Babel plugin for code instrumenting by wrapping code fragments with special functions",
+            "role": "maintainer",
+            "url": "https://github.com/restrry/babel-plugin-source-wrapper"
+        },
+        {
+            "title": "source-fragment",
+            "description": "Fetch source file fragment with highlighting",
+            "url": "https://github.com/lahmatiy/source-fragment",
+            "satellites": [
+                {
+                    "title": "express-source-fragment",
+                    "description": "Express middleware to get file source fragment",
+                    "url": "https://github.com/lahmatiy/express-source-fragment"
+                }
+            ]
+        },
+        {
+            "title": "multibar",
+            "description": "Simple and robust tty progress bar with multiple instance support",
+            "url": "https://github.com/lahmatiy/multibar"
+        },
+        {
+            "title": "es6-promise-polyfill",
+            "description": "ES6 Promise polyfill",
+            "url": "https://github.com/lahmatiy/es6-promise-polyfill"
+        }
+    ],
+    "articles": [
+        {
+            "date": "2019-09-16",
+            "title": "Discovery.js tutorials: quick start",
+            "url": "https://dev.to/rdvornov/discovery-js-tutorials-quick-start-m3k",
+            "translations": [
+                {
+                    "date": "2019-09-27",
+                    "title": "Руководство по Discovery.js: быстрый старт",
+                    "lang": "ru",
+                    "url": "https://habr.com/ru/company/mailru/blog/469115/",
+                    "role": "editor"
+                }
+            ]
+        },
+        {
+            "date": "2019-07-23",
+            "title": "JsonDiscovery: Changing a way we're viewing JSON in a browser",
+            "url": "https://blog.usejournal.com/changing-a-way-were-viewing-json-in-a-browser-51eda9103fa2",
+            "translations": [
+                {
+                    "date": "2019-07-24",
+                    "title": "JsonDiscovery: Меняем опыт просмотра JSON в браузере",
+                    "lang": "ru",
+                    "url": "https://habr.com/ru/post/461185/",
+                    "role": "translator"
+                }
+            ]
+        },
+        {
+            "date": "2018-03-14",
+            "title": "Unit-тестирование скриншотами: преодолеваем звуковой барьер. Расшифровка доклада",
+            "url": "https://habr.com/ru/company/avito/blog/350604/"
+        },
+        {
+            "date": "2014-03-21",
+            "title": "Руководство по basis.js. Часть 1: Начало работы, представления, модули, инструменты",
+            "url": "https://habr.com/ru/post/216577/"
+        },
+        {
+            "date": "2011-02-22",
+            "title": "Копируем исходный код без нумерации строк",
+            "url": "https://habr.com/ru/post/114322/"
+        },
+        {
+            "date": "2009-07-16",
+            "title": "Электронное табло 2 или с пользой для общества",
+            "url": "https://habr.com/ru/post/64381/"
+        },
+        {
+            "date": "2008-02-12",
+            "title": "Safari для веб-разработчиков",
+            "url": "https://habr.com/ru/post/20159/"
+        },
+        {
+            "date": "2008-02-07",
+            "title": "text-overflow в Firefox и все, все, все",
+            "url": "https://habr.com/ru/post/19933/"
+        },
+        {
+            "date": "2007-12-26",
+            "title": "Как запретить браузеру выделять текст",
+            "url": "https://habr.com/ru/post/18080/"
+        },
+        {
+            "date": "2007-12-25",
+            "title": "Выкрутасы Opera",
+            "url": "https://habr.com/ru/post/18017/"
+        }
+    ],
+    "talks": [
+        {
+            "date": "2021-02-27",
+            "lang": "ru",
+            "title": "JSON: push the limits",
+            "event": "Я люблю фронтенд",
+            "location": "Online",
+            "video": "https://youtu.be/KpfA19oDfeA",
+            "slides": "https://www.icloud.com/keynote/0D4zKz1Ngm58rf9bkcxkJHeBg#JSON_push_the_limits",
+            "projects": [
+                "json-ext"
+            ]
+        },
+        {
+            "date": "2019-11-09",
+            "lang": "ru",
+            "title": "CSS Definition Syntax",
+            "event": "HolyJS",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/8kjE1n6mQ2s",
+            "slides": "https://www.icloud.com/keynote/04eJQlUKmqZLNFTve7GIGshEw#CSS_definition_syntax_%E2%80%93_Holyjs_Moscow_'19",
+            "projects": [
+                "CSSTree",
+                "CSSO"
+            ]
+        },
+        {
+            "date": "2019-09-28",
+            "lang": "en",
+            "title": "Changing a way we're viewing JSON in a browser",
+            "event": "JSConf",
+            "location": "Budapest, Hungary",
+            "slides": "https://www.icloud.com/keynote/0XI-Pe7ltCrAyeOMXMLU8-S9Q#JSConf_Budapest'19_lighting_talk_(dark)",
+            "projects": [
+                "discovery"
+            ],
+            "lighting": true
+        },
+        {
+            "date": "2019-09-21",
+            "lang": "en",
+            "title": "Gaining insight",
+            "event": "CSS-Minsk-JS",
+            "location": "Minsk, Belarus",
+            "video": "https://youtu.be/8C6ZrOwN8AQ",
+            "slides": "https://www.icloud.com/keynote/0jR33b-z512QVPb5zyFrYgx3Q",
+            "projects": [
+                "discovery"
+            ]
+        },
+        {
+            "date": "2019-08-24",
+            "lang": "ru",
+            "title": "Почему фронтенд это круто",
+            "event": "TechTrain",
+            "location": "St. Petersburg, Russia",
+            "slides": "https://www.icloud.com/keynote/0RyUUOW6Lb4IGrzAbMgqzDlrw#Frontend_is_awesome_TechTrain",
+            "video": "https://youtu.be/dOkcO2tLEwI"
+        },
+        {
+            "date": "2019-07-20",
+            "lang": "ru",
+            "title": "Почему фронтенд это НЕ круто",
+            "event": "BeerJS Summit",
+            "location": "Minsk, Belarus",
+            "slides": "https://www.icloud.com/keynote/0VVqElNnzydjQShADtaC6gXqw",
+            "lighting": true
+        },
+        {
+            "date": "2019-07-13",
+            "lang": "ru",
+            "title": "Почему фронтенд это круто",
+            "event": "WSD",
+            "location": "St. Petersburg, Russia",
+            "slides": "https://wsd.events/2019/07/13/pres/frontend-awesome.pdf"
+        },
+        {
+            "date": "2019-06-15",
+            "lang": "ru",
+            "title": "Почему фронтенд это круто",
+            "event": "AntanaJS",
+            "location": "Nur-Sultan, Kazakhstan",
+            "slides": "https://www.icloud.com/keynote/0qU9pGe5qIXSBNw-2uiKAUPeA#Frontend_is_awesome_ru"
+        },
+        {
+            "date": "2019-05-24",
+            "lang": "ru",
+            "title": "JsonDiscovery",
+            "event": "HolyJS",
+            "location": "St. Petersburg, Russia",
+            "slides": "https://www.icloud.com/keynote/0ukZKXxCOpeACrRQaDvpebXZA#Holyjs_Piter'19_lighting_talk",
+            "lighting": true,
+            "projects": [
+                "discovery"
+            ]
+        },
+        {
+            "date": "2018-11-25",
+            "lang": "ru",
+            "title": "Маленький Data Science для большого фронтенда",
+            "event": "HolyJS",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/ltV7zyEr4vQ",
+            "slides": "https://www.icloud.com/keynote/0Y5bf6VCCGZn7HjR4V0dGq_YQ",
+            "projects": [
+                "discovery"
+            ]
+        },
+        {
+            "date": "2018-06-30",
+            "lang": "ru",
+            "title": "Декорирование кода – новые горизонты",
+            "event": "BeerJS Summit",
+            "location": "Minsk, Belarus",
+            "slides": "https://www.icloud.com/keynote/0Gff4YSp4x5Rk_hgzDbJXRklQ",
+            "lighting": true,
+            "projects": [
+                "hitext"
+            ]
+        },
+        {
+            "date": "2018-06-08",
+            "lang": "en",
+            "title": "All About the CSS Syntax",
+            "event": "pitercss_conf",
+            "location": "St. Petersburg, Russia",
+            "slides": "https://www.icloud.com/keynote/0DEQD-fUqhf0ak2AAqMjaqYMg#All_about_the_CSS_syntax_(pitercss_2018)",
+            "video": "https://youtu.be/itxpfoo1daM",
+            "projects": [
+                "CSSTree"
+            ]
+        },
+        {
+            "date": "2018-05-20",
+            "lang": "ru",
+            "title": "Каталог компонентов: переосмысление",
+            "event": "HolyJS",
+            "location": "St. Petersburg, Russia",
+            "video": "https://youtu.be/zZUbXAVV-HA",
+            "slides": "https://www.icloud.com/keynote/0iNlJ8ydX3WYlaQkPzl6BSGXQ#Component_catalogue_-_rethinking_(Holy.js_Spb_2018)"
+        },
+        {
+            "date": "2018-04-07",
+            "lang": "ru",
+            "title": "Масштабируемая архитектура фронтенда",
+            "event": "SPA Meetup",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/z9y6PNC2FL0",
+            "slides": "https://www.icloud.com/keynote/0xyy7m_adh51vxbcPS52YHxdw"
+        },
+        {
+            "date": "2018-02-03",
+            "lang": "ru",
+            "title": "CSS глазами машин",
+            "event": "WSD",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/c2Sw5gmOwmE",
+            "slides": "https://www.icloud.com/keynote/0mFZAEABm3DpuuUqteeXEyX1Q#css_machines_vision",
+            "projects": [
+                "CSSTree"
+            ]
+        },
+        {
+            "date": "2017-12-11",
+            "lang": "ru",
+            "title": "Unit-тестирование скриншотами: преодолеваем звуковой барьер",
+            "event": "HolyJS",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/ULwdj_Vr_WA",
+            "slides": "https://www.slideshare.net/basisjs/unit-94748909"
+        },
+        {
+            "date": "2017-10-07",
+            "lang": "ru",
+            "title": "My open source",
+            "event": "Hacktoberfest Open Hack Day at Avito",
+            "location": "Moscow, Russia",
+            "slides": "https://www.slideshare.net/basisjs/my-open-source-sept-2017",
+            "projects": [
+                "basis.js",
+                "CSSO",
+                "CSSTree"
+            ]
+        },
+        {
+            "date": "2017-04-08",
+            "lang": "ru",
+            "title": "Rempl — крутая платформа для крутых инструментов",
+            "event": "SPA Meetup",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/n0u0u_jkBeI",
+            "slides": "https://www.slideshare.net/AvitoTech/rempl-74801074",
+            "projects": [
+                "rempl"
+            ]
+        },
+        {
+            "date": "2017-04-02",
+            "lang": "ru",
+            "title": "Rempl — крутая платформа для крутых инструментов",
+            "event": "CodeFest",
+            "location": "Novosibirsk, Russia",
+            "video": "https://youtu.be/29gJUPEt2T4",
+            "slides": "https://www.slideshare.net/basisjs/rempl",
+            "url": "https://2017.codefest.ru/lecture/1164",
+            "projects": [
+                "rempl"
+            ]
+        },
+        {
+            "date": "2016-12-11",
+            "lang": "ru",
+            "title": "Remote (dev)tools своими руками",
+            "event": "HolyJS",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/yb22qyVUqTs",
+            "slides": "https://www.slideshare.net/basisjs/remove-devtools",
+            "projects": [
+                "rempl"
+            ]
+        },
+        {
+            "date": "2016-11-07",
+            "lang": "ru",
+            "title": "Как сделать ваш JavaScript быстрее",
+            "event": "HighLoad++",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/BstzvS2xd5U",
+            "slides": "https://www.slideshare.net/basisjs/javascript-68315560",
+            "url": "http://www.highload.ru/2016/abstracts/2455.html"
+        },
+        {
+            "date": "2016-09-24",
+            "lang": "ru",
+            "title": "Парсим CSS: performance tips & tricks",
+            "event": "MoscowJS",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/5XUuWVq-djs",
+            "slides": "https://www.slideshare.net/basisjs/css-performance-tips-tricks",
+            "slides_en": "https://www.slideshare.net/basisjs/css-parsing-performance-tips-tricks",
+            "projects": [
+                "CSSTree"
+            ]
+        },
+        {
+            "date": "2016-09-17",
+            "lang": "ru",
+            "title": "Парсим CSS",
+            "event": "FrontTalks",
+            "location": "Yekaterinburg, Russia",
+            "video": "https://youtu.be/jqaXpKqkYvM",
+            "slides": "https://www.slideshare.net/basisjs/css-66121105",
+            "projects": [
+                "CSSTree"
+            ]
+        },
+        {
+            "date": "2016-06-05",
+            "lang": "ru",
+            "title": "CSSO: история ускорения",
+            "event": "HolyJS",
+            "location": "St. Petersburg, Russia",
+            "video": "https://youtu.be/8o3gKKD_J4A",
+            "slides": "https://www.slideshare.net/basisjs/csso-62738200",
+            "projects": [
+                "CSSO"
+            ]
+        },
+        {
+            "date": "2016-04-23",
+            "lang": "ru",
+            "title": "CSSO — сжимаем CSS",
+            "event": "SPA Meetup",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/WcuwRJhB9C4",
+            "projects": [
+                "CSSO"
+            ]
+        },
+        {
+            "date": "2016-04-16",
+            "lang": "ru",
+            "title": "CSSO — сжимаем CSS",
+            "event": "Frontend Dev Conf",
+            "location": "Minsk, Belarus",
+            "video": "https://youtu.be/MyUGy66tFDg",
+            "slides": "https://www.slideshare.net/basisjs/csso-css-2",
+            "slides_en": "https://www.slideshare.net/basisjs/csso-compress-css-english-version",
+            "projects": [
+                "CSSO"
+            ]
+        },
+        {
+            "date": "2016-04-08",
+            "lang": "ru",
+            "title": "CSSO — сжимаем CSS",
+            "event": "DUMP",
+            "location": "Yekaterinburg, Russia",
+            "video": "https://youtu.be/RQbvWRwreaQ",
+            "projects": [
+                "CSSO"
+            ]
+        },
+        {
+            "date": "2015-12-13",
+            "lang": "ru",
+            "title": "CSSO — минимизируем CSS",
+            "event": "WSD",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/KgF0gGW_Bk0",
+            "slides": "https://wsd.events/2015/12/13/pres/csso.pdf",
+            "projects": [
+                "CSSO"
+            ]
+        },
+        {
+            "date": "2015-11-27",
+            "lang": "ru",
+            "title": "Инструментируй это",
+            "event": "Wrike Meetup",
+            "location": "St. Petersburg, Russia",
+            "projects": [
+                "basis.js",
+                "Component Inspector"
+            ]
+        },
+        {
+            "date": "2015-11-01",
+            "lang": "ru",
+            "title": "Инструментируй это",
+            "event": "WSD",
+            "location": "Minsk, Belarus",
+            "slides": "https://wsd.events/2015/10/31/pres/instrument-this.pdf",
+            "projects": [
+                "basis.js",
+                "Component Inspector"
+            ]
+        },
+        {
+            "date": "2015-10-28",
+            "lang": "ru",
+            "title": "Component Inspector",
+            "event": "MoscowJS",
+            "location": "Moscow, Russia",
+            "slides": "https://www.slideshare.net/basisjs/component-inspector",
+            "projects": [
+                "Component Inspector"
+            ]
+        },
+        {
+            "date": "2015-09-19",
+            "lang": "ru",
+            "title": "Инструментируй это",
+            "event": "FrontTalks",
+            "location": "Yekaterinburg, Russia",
+            "video": "https://youtu.be/aMP6j6um4Ss",
+            "projects": [
+                "basis.js",
+                "Component Inspector"
+            ]
+        },
+        {
+            "date": "2015-07-04",
+            "lang": "ru",
+            "title": "Карточный домик",
+            "event": "Mobile Frontend Meetup",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/4o9joROJVHg",
+            "slides": "https://www.slideshare.net/basisjs/ss-40728849"
+        },
+        {
+            "date": "2015-06-20",
+            "lang": "ru",
+            "title": "Жизнь в изоляции",
+            "event": "WSD",
+            "location": "St. Petersburg, Russia",
+            "slides": "https://wsd.events/2015/06/20/pres/style-isolation.pdf",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2015-05-21",
+            "lang": "ru",
+            "title": "Жизнь в изоляции",
+            "event": "FrontendConf",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/Xw7L-4nCKRk",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2015-03-28",
+            "lang": "ru",
+            "title": "Инструменты разные нужны, инструменты разные важны",
+            "event": "CodeFest",
+            "location": "Novosibirsk, Russia",
+            "video": "https://youtu.be/HMTc3DERw5c",
+            "slides": "https://www.slideshare.net/basisjs/fronted-tools",
+            "url": "https://2015.codefest.ru/lecture/999",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2015-02-28",
+            "lang": "ru",
+            "title": "SPA инструменты",
+            "event": "SPA Meetup",
+            "location": "Moscow, Russia",
+            "video": "https://youtu.be/IUtbbN9aevU",
+            "slides": "https://www.slideshare.net/basisjs/spa-45289195",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-10-26",
+            "lang": "ru",
+            "title": "Карточный домик",
+            "event": "WSD",
+            "location": "Minsk, Belarus",
+            "video": "https://youtu.be/dQoz5KZUH2M",
+            "slides": "https://wsd.events/2014/10/26/pres/house-of-cards.pdf"
+        },
+        {
+            "date": "2014-09-19",
+            "lang": "ru",
+            "title": "Баба-яга против!",
+            "event": "FrontTalks",
+            "location": "Yekaterinburg, Russia",
+            "video": "https://youtu.be/ne8sxUxUiCA",
+            "slides": "https://www.slideshare.net/basisjs/front-talks"
+        },
+        {
+            "date": "2014-09-06",
+            "lang": "ru",
+            "title": "Баба-яга против!",
+            "event": "SouthFest",
+            "location": "Rostov-on-Don, Russia"
+        },
+        {
+            "date": "2014-06-28",
+            "lang": "ru",
+            "title": "DOM-шаблонизаторы – не только быстро",
+            "event": "WSD",
+            "location": "St. Petersburg, Russia",
+            "slides": "https://wsd.events/2014/06/28/pres/dom-templates.pdf",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-06-14",
+            "lang": "ru",
+            "title": "DOM-шаблонизаторы – не только быстро",
+            "event": "DevConf",
+            "location": "Moscow, Russia",
+            "slides": "https://www.slideshare.net/basisjs/moscow-js-domtemplates",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-05-22",
+            "lang": "ru",
+            "title": "DOM-шаблонизаторы – не только быстро",
+            "event": "MoscowJS",
+            "location": "Moscow, Russia",
+            "slides": "https://www.icloud.com/keynote/0V-uKSlU--cMrdyG7LBb8SuZA#MoscowJS-20140522",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-04-15",
+            "lang": "ru",
+            "title": "Не бойся, это всего лишь данные... просто их много",
+            "event": "РИТ",
+            "location": "Moscow, Russia",
+            "slides": "https://www.slideshare.net/basisjs/ss-32305540",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-04-12",
+            "lang": "ru",
+            "title": "Быстро о быстром",
+            "event": "WSD",
+            "location": "Novosibirsk, Russia",
+            "video": "https://youtu.be/Gz8dxQRv_6k",
+            "slides": "https://www.slideshare.net/basisjs/ss-32115638",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-04-12",
+            "lang": "ru",
+            "title": "Не бойся, это всего лишь данные... просто их много",
+            "event": "WSD",
+            "location": "Novosibirsk, Russia",
+            "video": "https://youtu.be/A6NaaUKztSI",
+            "slides": "https://www.slideshare.net/basisjs/ss-32305540",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-03-14",
+            "lang": "ru",
+            "title": "Не бойся, это всего лишь данные... просто их много",
+            "event": "DUMP",
+            "location": "Yekaterinburg, Russia",
+            "video": "https://youtu.be/baPaSBaRKbk",
+            "slides": "https://www.slideshare.net/basisjs/ss-32305540",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-03-13",
+            "lang": "ru",
+            "title": "Быстро о быстром",
+            "event": "FrontTalks Meetup",
+            "location": "Yekaterinburg, Russia",
+            "slides": "https://www.slideshare.net/basisjs/ss-32115638",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2014-03-09",
+            "lang": "ru",
+            "title": "Быстро о быстром",
+            "event": "IT61 JS Meetup",
+            "location": "Rostov-on-Don, Russia",
+            "slides": "https://www.slideshare.net/basisjs/ss-32115638",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2013-10-26",
+            "lang": "ru",
+            "title": "Как построить DOM",
+            "event": "WSD",
+            "location": "Kiev, Ukraine",
+            "slides": "https://wsd.events/2013/10/26/pres/dom.pdf",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2013-10-19",
+            "lang": "ru",
+            "title": "Как построить DOM",
+            "event": "WSD",
+            "location": "Minsk, Belarus",
+            "slides": "https://www.icloud.com/keynote/0jzCFZl2DKWqgRbDFgl7BWh5A",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2013-10-13",
+            "lang": "ru",
+            "title": "Компонентный подход — скучно, не интересно, бесперспективно",
+            "event": "404Fest",
+            "location": "Samara, Russia",
+            "video": "https://youtu.be/QpZy0WW0Ig4",
+            "slides": "https://www.slideshare.net/basisjs/ss-27142749",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2013-07-05",
+            "lang": "ru",
+            "title": "Почему я не бросил разрабатывать свой фреймворк",
+            "event": "FrontTalks",
+            "location": "Yekaterinburg, Russia",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2013-06-14",
+            "lang": "ru",
+            "title": "Почему я не бросил разрабатывать свой фреймворк",
+            "event": "DevConf",
+            "location": "Moscow, Russia",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2013-06-08",
+            "lang": "ru",
+            "title": "Почему я не бросил разрабатывать свой фреймворк",
+            "event": "WSD",
+            "location": "St. Petersburg, Russia",
+            "video": "https://youtu.be/cVbbkwkhNQg",
+            "slides": "https://wsd.events/2013/06/08/pres/basis-js.pdf",
+            "projects": [
+                "basis.js"
+            ]
+        },
+        {
+            "date": "2013-04-22",
+            "lang": "ru",
+            "title": "Почему я не бросил разрабатывать свой фреймворк",
+            "event": "РИТ",
+            "location": "Moscow, Russia",
+            "slides": "https://www.slideshare.net/basisjs/rit2013",
+            "projects": [
+                "basis.js"
+            ]
+        }
+    ],
+    "eventProduction": [
+        {
+            "date": "2019-08-17",
+            "title": "SPA Meetup",
+            "num": 5,
+            "url": "https://moscow-spa.timepad.ru/event/1028283/",
+            "location": "Moscow, Russia",
+            "roles": [
+                "organizer",
+                "program committee",
+                "host"
+            ]
+        },
+        {
+            "date": "2018-04-07",
+            "title": "SPA Meetup",
+            "num": 4,
+            "url": "https://moscow-spa.timepad.ru/event/692653/",
+            "location": "Moscow, Russia",
+            "roles": [
+                "organizer",
+                "program committee",
+                "host"
+            ]
+        },
+        {
+            "date": "2017-04-08",
+            "title": "SPA Meetup",
+            "num": 3,
+            "url": "https://moscow-spa.timepad.ru/event/463443/",
+            "location": "Moscow, Russia",
+            "roles": [
+                "organizer",
+                "program committee",
+                "host"
+            ]
+        },
+        {
+            "date": "2016-04-23",
+            "title": "SPA Meetup",
+            "num": 2,
+            "url": "https://github.com/moscow-spa-meetup/meetup-2",
+            "location": "Moscow, Russia",
+            "roles": [
+                "organizer",
+                "program committee",
+                "host"
+            ]
+        },
+        {
+            "date": "2016-03-31",
+            "title": "MoscowJS",
+            "num": 29,
+            "location": "Moscow, Russia",
+            "url": "https://moscowjs.org/events/moscowjs-29/",
+            "roles": [
+                "host"
+            ]
+        },
+        {
+            "date": "2015-07-04",
+            "title": "Mobile Frontend Meetup",
+            "url": "https://github.com/moscow-spa-meetup/mobile-frontend-meetup-1",
+            "location": "Moscow, Russia",
+            "roles": [
+                "organizer",
+                "program committee",
+                "host"
+            ]
+        },
+        {
+            "date": "2015-05-21",
+            "title": "FrontendConf",
+            "url": "https://frontendconf.ru/2016",
+            "location": "Moscow, Russia",
+            "roles": [
+                "program committee",
+                "panel session host"
+            ]
+        },
+        {
+            "date": "2015-02-28",
+            "title": "SPA Meetup",
+            "num": 1,
+            "url": "https://github.com/moscow-spa-meetup/meetup-1",
+            "location": "Moscow, Russia",
+            "roles": [
+                "organizer",
+                "program committee",
+                "host"
+            ]
+        }
+    ],
+    "shows": [
+        {
+            "title": "UnderJS Podcast",
+            "episodes": [
+                {
+                    "num": "5",
+                    "date": "2019-09-24",
+                    "title": "Разговор с Романом Дворновым про Open-Source и вкусные детали Web",
+                    "url": "https://underjs.ru/podcast/2019/09/24/open-source-and-web-delicious.html",
+                    "media": {
+                        "soundcloud": "https://soundcloud.com/underjs/5-razgovor-s-romanom-dvornovym-pro-open-source-i-vkusnye-detali-web-lampovyy"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Frontend Weekend",
+            "episodes": [
+                {
+                    "num": "25",
+                    "date": "2017-10-30",
+                    "title": "Роман Дворнов о том, как создавать Open Source и не перегореть",
+                    "url": "https://soundcloud.com/frontend-weekend/fw-25"
+                },
+                {
+                    "num": "102",
+                    "date": "2019-12-30",
+                    "title": "Роман Дворнов: что изменилось за два года или об уходе из Avito, переезде в Прагу и целях open source'а",
+                    "url": "https://soundcloud.com/frontend-weekend/fw-102"
+                }
+            ]
+        },
+        {
+            "title": "Девшахта",
+            "episodes": [
+                {
+                    "num": "84",
+                    "date": "2019-06-14",
+                    "title": "Роман Дворнов о тимлидах и синьорах",
+                    "url": "https://medium.com/devschacht/devschacht-84-f89f36491002",
+                    "media": {
+                        "youtube": "https://www.youtube.com/watch?v=hFvlTKbnYS0"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Веб-стандарты",
+            "episodes": [
+                {
+                    "num": "34",
+                    "date": "2016-09-20",
+                    "summary": "Новинки Гитхаба, Chrome, Safari, спеки HTML и SVG, новые API, письма, шрифты, JS для дизайнеров, Sass, PostCSS и CSSTree",
+                    "url": "https://github.com/web-standards-ru/podcast/blob/master/src/episodes/34.md",
+                    "media": {
+                        "itunes": "https://podcasts.apple.com/us/podcast/%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-34/id1080500016?i=1000402573851",
+                        "soundcloud": "https://soundcloud.com/web-standards/episode-34",
+                        "mp3": "https://web-standards.ru/podcast/episodes/34.mp3"
+                    }
+                },
+                {
+                    "num": "250",
+                    "date": "2020-10-06",
+                    "summary": "Edge в VS Code, инспектор гридов, gap и флексы, математика в CSS, Hacktoberfest, опенсорс",
+                    "url": "https://medium.com/web-standards/episode-250-227301714b26",
+                    "media": {
+                        "itunes": "https://podcasts.apple.com/us/podcast/250-edge-%D0%B2-vs-code-%D0%B8%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%B3%D1%80%D0%B8%D0%B4%D0%BE%D0%B2-gap-%D0%B8-%D1%84%D0%BB%D0%B5%D0%BA%D1%81%D1%8B-%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/id1080500016?i=1000493759496",
+                        "soundcloud": "https://soundcloud.com/web-standards/episode-250",
+                        "mp3": "https://web-standards.ru/podcast/episodes/250.mp3"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Radio.js",
+            "episodes": [
+                {
+                    "num": "2",
+                    "date": "2014-08-11",
+                    "title": "В гостях Роман Дворнов",
+                    "url": "http://radiojs.ru/2014/08/radiojs-2/"
+                },
+                {
+                    "date": "2014-12-30",
+                    "title": "Новогодний выпуск",
+                    "url": "http://radiojs.ru/2014/12/happy-new-year/"
+                },
+                {
+                    "num": "17",
+                    "date": "2015-02-09",
+                    "title": "RadioJS Night Edition. В гостях Рома Дворнов",
+                    "url": "http://radiojs.ru/2015/02/radiojs-17/"
+                },
+                {
+                    "num": "31",
+                    "date": "2015-10-16",
+                    "title": "FrontTalks",
+                    "summary": "Серия интервью на FrontTalks",
+                    "url": "http://radiojs.ru/2015/10/radiojs-31/"
+                },
+                {
+                    "num": "32",
+                    "date": "2015-10-31",
+                    "title": "Идеи важнее фреймворков",
+                    "url": "http://radiojs.ru/2015/10/radiojs-32/"
+                }
+            ]
+        },
+        {
+            "title": "Software Development podCAST",
+            "episodes": [
+                {
+                    "num": "5",
+                    "date": "2014-06-24",
+                    "url": "http://sdcast.ksdaemon.ru/2014/06/sdcast-5/"
+                }
+            ]
+        },
+        {
+            "title": "Avito Online Frontend",
+            "episodes": [
+                {
+                    "date": "2018-12-11",
+                    "title": "Frontend infrastructure",
+                    "url": "https://youtu.be/3r3IYaaEcS8"
+                }
+            ]
+        }
+    ],
+    "interviews": [
+        {
+            "date": "2016-12-07",
+            "format": "article",
+            "comment": "В предверии выступления на HolyJS Moscow",
+            "url": "https://habr.com/ru/company/jugru/blog/317060/"
+        },
+        {
+            "date": "2015-12-13",
+            "format": "video",
+            "comment": "Интервью на WSD",
+            "url": "https://youtu.be/oHKNGzMtRDI"
+        }
+    ]
+}
